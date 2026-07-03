@@ -1,0 +1,19 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.eggs/
+
+# macOS
+.DS_Store
+.DS_Store?
+
+# Scratch / temp
+_swiss_patch.py
+_tmp_map.html
+lbn_admin_boundaries.geojson.zip
+
+# Logs
+scraper.log
+*.log

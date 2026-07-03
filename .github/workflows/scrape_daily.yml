@@ -1,0 +1,62 @@
+name: Daily Scrape & Deploy
+
+on:
+  schedule:
+    - cron: '0 6 * * *'   # 06:00 UTC = 09:00 Beirut (UTC+3)
+  workflow_dispatch:       # allows manual trigger from GitHub UI
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  scrape-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run scraper
+        run: python gemini-code-1783084154926.py
+
+      - name: Rename map to index.html for Pages root
+        run: cp real_estate_map.html index.html
+
+      - name: Commit outputs back to repo
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.html real_estate_map.html listings.csv real_estate_means.csv
+          git diff --cached --quiet || git commit -m "chore: daily scrape $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+  deploy:
+    needs: scrape-and-deploy
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
