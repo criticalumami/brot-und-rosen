@@ -2,7 +2,7 @@
 
 Lebanon real estate price index — scraped daily from Dubizzle (OLX Lebanon).
 
-**Live map →** https://YOUR_USERNAME.github.io/brot-und-rosen/
+**Live map →** https://criticalumami.github.io/brot-und-rosen/
 
 ## What it does
 
