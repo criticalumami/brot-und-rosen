@@ -381,8 +381,10 @@ def inject_table(df_all):
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.datatables.net/1.13.8/css/jquery.dataTables.min.css"/>
+<link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css"/>
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 <script src="https://cdn.datatables.net/1.13.8/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js"></script>
 <style>
   * {{ box-sizing: border-box; }}
   body, html, .leaflet-container, .leaflet-popup-content,
@@ -473,6 +475,17 @@ def inject_table(df_all):
     border:none !important;border-radius:0 !important;
   }}
   .paginate_button:hover {{ background:#f0f0f0 !important;color:#000 !important;border:none !important; }}
+
+  /* Responsive Controls Style */
+  table#lt.dtr-inline.collapsed>tbody>tr>td.dtr-control:before,
+  table#lt.dtr-inline.collapsed>tbody>tr>th.dtr-control:before {{
+    background-color: #333; border-color: #999;
+    box-shadow: none; font-weight: bold;
+  }}
+  table#lt.dtr-inline.collapsed>tbody>tr.parent td.dtr-control:before,
+  table#lt.dtr-inline.collapsed>tbody>tr.parent th.dtr-control:before {{
+    background-color: #888;
+  }}
 </style>
 
 <div id="sw-hdr">
@@ -504,6 +517,7 @@ def inject_table(df_all):
 <script>
 $(document).ready(function(){{
   $('#lt').DataTable({{
+    responsive: true,
     order:[[6,'desc']],pageLength:50,lengthMenu:[25,50,100,250],
     columnDefs:[{{orderable:false,targets:7}}],
     dom:'<"top"f>rt<"bottom"lip>',
