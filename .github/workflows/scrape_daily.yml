@@ -18,12 +18,14 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  scrape-and-deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
-
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          # Fetch all history so the commit step can diff against the remote
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -34,17 +36,20 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run scraper
+      - name: Run scraper (on schedule only)
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: python gemini-code-1783084154926.py
 
       - name: Rename map to index.html for Pages root
         run: cp real_estate_map.html index.html
 
-      - name: Commit outputs back to repo
+      - name: Commit outputs back to repo (on schedule only)
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add index.html real_estate_map.html listings.csv real_estate_means.csv
+          # Only commit and push if there are changes
           git diff --cached --quiet || git commit -m "chore: daily scrape $(date -u +'%Y-%m-%d %H:%M UTC') [skip ci]"
           git push
 
@@ -54,7 +59,7 @@ jobs:
           path: '.'
 
   deploy:
-    needs: scrape-and-deploy
+    needs: build
     runs-on: ubuntu-latest
     environment:
       name: github-pages
