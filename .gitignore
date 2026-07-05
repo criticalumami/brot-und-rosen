@@ -17,3 +17,6 @@ lbn_admin_boundaries.geojson.zip
 # Logs
 scraper.log
 *.log
+
+# Screenshots
+*.png
