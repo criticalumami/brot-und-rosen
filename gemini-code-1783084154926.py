@@ -487,13 +487,23 @@ def inject_table(df_all):
   table#lt.dtr-inline.collapsed>tbody>tr.parent th.dtr-control:before {{
     background-color: #888;
   }}
+  @media (max-width: 768px) {{
+    .desktop-only {{
+      display: none;
+    }}
+  }}
+  @media (max-width: 768px) {{
+    .desktop-only {{
+      display: none;
+    }}
+  }}
 </style>
 
 <div id="sw-hdr">
   <div class="brand">Brot und Rosen</div>
   <div class="tags">
     <span>{n:,} listings</span>
-    <span>Beirut — Cadaster · Lebanon — District</span>
+    <span class="desktop-only">Beirut — Cadaster · Lebanon — District</span>
     <span>{SCRAPE_DATE}</span>
   </div>
 </div>
