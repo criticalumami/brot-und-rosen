@@ -395,7 +395,7 @@ def inject_table(df_all):
 
   /* ── Header ── */
   #sw-hdr {{
-    position:fixed;top:0;left:0;right:0;height:48px;
+    position:fixed;top:0;left:0;right:0;min-height:48px;
     background:#000;color:#fff;
     display:flex;align-items:center;justify-content:space-between;
     padding:0 20px;z-index:10000;border-bottom:2px solid #000;
@@ -404,7 +404,8 @@ def inject_table(df_all):
     font-size:11px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;
   }}
   #sw-hdr .tags {{
-    display:flex;gap:0;font-size:9px;letter-spacing:.10em;text-transform:uppercase;color:#888;
+    display:flex;flex-wrap:wrap;justify-content:flex-end;
+    gap:0;font-size:9px;letter-spacing:.10em;text-transform:uppercase;color:#888;
   }}
   #sw-hdr .tags span {{
     padding:0 18px;border-left:1px solid #333;line-height:48px;
