@@ -232,7 +232,7 @@ def get_fb_data():
         ('Saida','Saida','Saida',90000,100),
         ('Tyre','Sour','Sour',70000,80),
         ('Zahle','Zahle','Zahle',100000,110),
-        ('Baalbek','Baalbek','Baalbek',55000,100),
+        ('Baalbek','Baalbek','Baalbek',55000,100)
     ]
     rows=[{'Source':'FB Marketplace','URL':'https://www.facebook.com/marketplace',
            'Neighborhood':nb,'District':dist,'Zone':zone,'Price_USD':float(p),
