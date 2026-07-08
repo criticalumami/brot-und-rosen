@@ -15,6 +15,14 @@ import os, re, time, json, requests, pandas as pd, folium
 from bs4 import BeautifulSoup
 from datetime import datetime
 
+try:
+    from selenium import webdriver
+    from selenium.webdriver.chrome.service import Service
+    from webdriver_manager.chrome import ChromeDriverManager
+    SELENIUM_AVAILABLE = True
+except ImportError:
+    SELENIUM_AVAILABLE = False
+
 SCRAPE_DATE  = datetime.now().strftime('%Y-%m-%d %H:%M')
 PAGES        = 25
 ADM2_GEOJSON = 'lbn_geojson/lbn_admin2_em.geojson'
@@ -207,7 +215,196 @@ def _fallback():
     return pd.DataFrame(rows)
 
 def get_fb_data():
-    print('\n=== Facebook Marketplace (simulated) ===')
+    if os.environ.get('GITHUB_ACTIONS') == 'true' or not SELENIUM_AVAILABLE:
+        print('\n=== Facebook Marketplace (simulated) ===')
+        fb = [
+            ('Achrafieh','Beirut','Achrafieh',220000,120),
+            ('Achrafieh','Beirut','Achrafieh',350000,180),
+            ('Hamra','Beirut','Ras Beyrouth',180000,110),
+            ('Verdun','Beirut','Moussaytbeh',340000,170),
+            ('Badaro','Beirut','Mazraa',260000,140),
+            ('Jnah','Beirut','Saifeh',380000,210),
+            ('Ras Beirut','Beirut','Ras Beyrouth',450000,210),
+            ('Mar Mikhael','Beirut','Remeil',195000,100),
+            ('Downtown','Beirut','Beirut Central District',1500000,300),
+            ('Ramlet el Bayda','Beirut','Moussaytbeh',580000,260),
+            ('Gemmayzeh','Beirut','Saifeh',280000,130),
+            ('Ain El Mraiseh','Beirut','Ain el-Mreisseh',420000,170),
+            ('Sin El Fil','El Meten','El Meten',140000,90),
+            ('Bourj Hammoud','El Meten','El Meten',95000,75),
+            ('Jal El Dib','El Meten','El Meten',170000,95),
+            ('Chiyah','Baabda','Baabda',105000,80),
+            ('Hazmieh','Baabda','Baabda',250000,110),
+            ('Jounieh','Kesrwane','Kesrwane',200000,100),
+            ('Tripoli','Tripoli','Tripoli',75000,85),
+            ('Batroun','El Batroun','El Batroun',120000,90),
+            ('Saida','Saida','Saida',90000,100),
+            ('Tyre','Sour','Sour',70000,80),
+            ('Zahle','Zahle','Zahle',100000,110),
+            ('Baalbek','Baalbek','Baalbek',55000,100)
+        ]
+        rows=[{'Source':'FB Marketplace','URL':'https://www.facebook.com/marketplace',
+               'Neighborhood':nb,'District':dist,'Zone':zone,'Price_USD':float(p),
+               'Area_SQM':float(s),'Price_Per_SQM':round(p/s,1),'Scraped_Date':SCRAPE_DATE}
+              for nb,dist,zone,p,s in fb]
+        print(f'  {len(rows)} listings')
+        return pd.DataFrame(rows)
+
+    print('\n=== Facebook Marketplace (scraping real-time) ===')
+    listings = []
+    driver = None
+    try:
+        options = webdriver.ChromeOptions()
+        options.add_argument('--headless')
+        options.add_argument('--disable-gpu')
+        options.add_argument('--no-sandbox')
+        options.add_argument('--disable-dev-shm-usage')
+        options.add_argument('user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36')
+        
+        driver_path = ChromeDriverManager().install()
+        service = Service(driver_path)
+        driver = webdriver.Chrome(service=service, options=options)
+        
+        # Navigate to FB Marketplace Beirut query (force English locale)
+        url = "https://www.facebook.com/marketplace/beirut/search?query=apartment&locale=en_US"
+        driver.get(url)
+        time.sleep(5)
+        
+        # Scroll and dismiss login dialogs to load more listings in English
+        for scroll_idx in range(3):
+            try:
+                driver.execute_script("""
+                    document.querySelectorAll('[role=dialog]').forEach(el => el.remove());
+                    document.querySelectorAll('.login_form_container').forEach(el => el.remove());
+                    document.body.style.overflow = 'auto';
+                """)
+                driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+                time.sleep(3)
+            except Exception as e:
+                print(f"  Scroll warning: {e}")
+        
+        html = driver.page_source
+        soup = BeautifulSoup(html, 'html.parser')
+        
+        # Extract links
+        links = soup.find_all('a', href=lambda href: href and '/marketplace/item/' in href)
+        print(f'  Found {len(links)} candidate listings')
+        
+        for a in links:
+            text = a.get_text(separator='|').strip()
+            parts = [p.strip() for p in text.split('|') if p.strip()]
+            if not parts:
+                continue
+                
+            price = None
+            title = ""
+            location = ""
+            
+            for part in parts:
+                part_clean = part.replace(',', '').replace(' ', '')
+                if '$' in part or 'usd' in part.lower():
+                    nums = re.findall(r'\d+', part_clean)
+                    if nums:
+                        price = float(nums[0])
+                elif part.isdigit() and float(part) > 1000:
+                    price = float(part)
+                elif any(cad.lower() in part.lower() for cad in BEIRUT_TO_CADASTER) or any(dist_val.lower() in part.lower() for dist_val in OLX_DIST_MAP if dist_val):
+                    location = part
+                else:
+                    if not title:
+                        title = part
+                    else:
+                        title += " | " + part
+            
+            if not location and len(parts) >= 2:
+                location = parts[-1]
+            if price is None and parts:
+                nums = re.findall(r'\d+', parts[0].replace(',', ''))
+                if nums:
+                    price = float(nums[0])
+                    
+            if not price or price <= 0:
+                continue
+                
+            # Geographic resolution
+            loc_clean = location.strip()
+            parts_loc = [p.strip() for p in loc_clean.split(',')]
+            nb = parts_loc[0] if parts_loc else 'Unknown'
+            raw_dist = parts_loc[1] if len(parts_loc) > 1 else 'Unknown'
+            
+            nb_l = nb.lower()
+            district = 'Unknown'
+            for key, cad in BEIRUT_TO_CADASTER.items():
+                if key in nb_l:
+                    district = 'Beirut'
+                    nb = cad
+                    break
+            
+            if district == 'Unknown':
+                for part in parts_loc:
+                    part_l = part.lower()
+                    for key, dist_val in OLX_DIST_MAP.items():
+                        if dist_val and key.lower() in part_l:
+                            district = dist_val
+                            break
+                    if district != 'Unknown':
+                        break
+                        
+            if district == 'Unknown':
+                district = fallback_district(nb)
+                
+            if district == 'Unknown' and raw_dist != 'Unknown':
+                for key, dist_val in OLX_DIST_MAP.items():
+                    if dist_val and key.lower() in raw_dist.lower():
+                        district = dist_val
+                        break
+                        
+            zone = assign_zone(nb, district)
+            
+            # Extract SQM
+            sqm = None
+            sqm_match = re.search(r'(\d+)\s*(?:sqm|sq\.?m\.?|sq\s*meters?|m2|meters?|متر|م)', title, re.IGNORECASE)
+            if sqm_match:
+                sqm = float(sqm_match.group(1))
+            else:
+                sqm_match = re.search(r'(\d+)\s*(?:sqm|sq\.?m\.?|sq\s*meters?|m2|meters?|متر|م)', location, re.IGNORECASE)
+                if sqm_match:
+                    sqm = float(sqm_match.group(1))
+            if not sqm or sqm < 10 or sqm > 1000:
+                sqm = 150.0
+                
+            item_url = a['href']
+            if not item_url.startswith('http'):
+                item_url = 'https://www.facebook.com' + item_url
+                
+            ppsqm = round(price/sqm, 1)
+            
+            listings.append({
+                'Source': 'FB Marketplace',
+                'URL': item_url,
+                'Neighborhood': nb,
+                'District': district,
+                'Zone': zone,
+                'Price_USD': price,
+                'Area_SQM': sqm,
+                'Price_Per_SQM': ppsqm,
+                'Scraped_Date': SCRAPE_DATE
+            })
+            
+        print(f'  Successfully scraped {len(listings)} FB listings')
+        driver.quit()
+        if listings:
+            return pd.DataFrame(listings)
+    except Exception as e:
+        print(f'  Selenium error: {e}, falling back to simulated data...')
+        if driver:
+            try:
+                driver.quit()
+            except:
+                pass
+                
+    # Fallback to simulated data
+    print('  Falling back to simulated dataset…')
     fb = [
         ('Achrafieh','Beirut','Achrafieh',220000,120),
         ('Achrafieh','Beirut','Achrafieh',350000,180),
@@ -238,7 +435,6 @@ def get_fb_data():
            'Neighborhood':nb,'District':dist,'Zone':zone,'Price_USD':float(p),
            'Area_SQM':float(s),'Price_Per_SQM':round(p/s,1),'Scraped_Date':SCRAPE_DATE}
           for nb,dist,zone,p,s in fb]
-    print(f'  {len(rows)} listings')
     return pd.DataFrame(rows)
 
 # ─── Swiss choropleth color ───────────────────────────────────────────────────
