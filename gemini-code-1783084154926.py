@@ -559,9 +559,14 @@ def inject_table(df_all):
                 ) if ok else '—'
         ppsqm = f"${r['Price_Per_SQM']:,.0f}" if pd.notna(r.get('Price_Per_SQM')) else '—'
         sqm   = f"{r['Area_SQM']:,.0f}"         if pd.notna(r.get('Area_SQM'))      else '—'
+        
+        # Highlight FB Marketplace listings with a bold Swiss-style left border
+        is_fb = r.get('Source') == 'FB Marketplace'
+        border_style = 'border-left: 4px solid #000; padding-left: 8px;' if is_fb else ''
+        
         rows_html += (
-            f'<tr>'
-            f'<td style="color:#aaa;font-size:10px;">{r["Scraped_Date"]}</td>'
+            f'<tr style="{"background-color: #fafafa;" if is_fb else ""}">'
+            f'<td style="color:#aaa;font-size:10px;{border_style}">{r["Scraped_Date"]}</td>'
             f'<td style="font-weight:600">{r["Source"]}</td>'
             f'<td>{r["Neighborhood"]}</td>'
             f'<td style="font-weight:700">{r["Zone"]}</td>'
