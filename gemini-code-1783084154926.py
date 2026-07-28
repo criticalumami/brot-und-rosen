@@ -18,6 +18,8 @@ from datetime import datetime
 try:
     from selenium import webdriver
     from selenium.webdriver.chrome.service import Service
+    from selenium.webdriver.common.by import By
+    from selenium.webdriver.common.keys import Keys
     from webdriver_manager.chrome import ChromeDriverManager
     SELENIUM_AVAILABLE = True
 except ImportError:
@@ -74,13 +76,13 @@ OLX_DIST_MAP = {
 KEYWORD_TO_DISTRICT = {
     'jounieh':'Kesrwane','zouk mosbeh':'Kesrwane','kaslik':'Kesrwane',
     'ghazir':'Kesrwane','sarba':'Kesrwane','adonis':'Kesrwane',
-    'jal el dib':'El Meten','sin el fil':'El Meten','bourj hammoud':'El Meten',
-    'dekwaneh':'El Meten','zalka':'El Meten','antelias':'El Meten',
+    'jal el dib':'El Meten','sin el fil':'El Meten','sinn el fil':'El Meten','bourj hammoud':'El Meten',
+    'dekwaneh':'El Meten','ad dikwani':'El Meten','dikwaneh':'El Meten','zalka':'El Meten','az zalqa\'':'El Meten','zalqa':'El Meten','antelias':'El Meten',
     'jdeideh':'El Meten','mansourieh':'El Meten','broummana':'El Meten',
-    'bsalim':'El Meten','dbayeh':'El Meten','fanar':'El Meten',
-    'naccache':'El Meten','ain saade':'El Meten','bauchrieh':'El Meten',
-    'chiyah':'Baabda','hadath':'Baabda','hazmieh':'Baabda',
-    'furn el chebbak':'Baabda','haret hreik':'Baabda','baabda':'Baabda',
+    'bsalim':'El Meten','dbayeh':'El Meten','dbaiye':'El Meten','fanar':'El Meten',
+    'naccache':'El Meten','an naqqash':'El Meten','ain saade':'El Meten','bauchrieh':'El Meten','baouchriye':'El Meten',
+    'chiyah':'Baabda','hadath':'Baabda','hadet':'Baabda','hazmieh':'Baabda',
+    'furn el chebbak':'Baabda','haret hreik':'Baabda','baabda':'Baabda','blaibel':'Baabda','kafr shima':'Baabda',
     'aley':'Aley','bchamoun':'Aley','choueifat':'Aley','khalde':'Aley',
     'damour':'Aley','souk el gharb':'Aley',
     'jbeil':'Jbeil','byblos':'Jbeil','laqlouq':'Jbeil','amchit':'Jbeil',
@@ -216,7 +218,7 @@ def _fallback():
 
 def get_fb_data():
     if os.environ.get('GITHUB_ACTIONS') == 'true' or not SELENIUM_AVAILABLE:
-        print('\n=== Facebook Marketplace (simulated) ===')
+        print('\n=== Facebook Marketplace (simulated for CI) ===')
         fb = [
             ('Achrafieh','Beirut','Achrafieh',220000,120),
             ('Achrafieh','Beirut','Achrafieh',350000,180),
@@ -250,7 +252,7 @@ def get_fb_data():
         print(f'  {len(rows)} listings')
         return pd.DataFrame(rows)
 
-    print('\n=== Facebook Marketplace (scraping real-time) ===')
+    print('\n=== Facebook Marketplace (scraping real-time Beirut sales) ===')
     listings = []
     driver = None
     try:
@@ -265,35 +267,119 @@ def get_fb_data():
         service = Service(driver_path)
         driver = webdriver.Chrome(service=service, options=options)
         
-        # Navigate to FB Marketplace Beirut query (force English locale)
-        url = "https://www.facebook.com/marketplace/beirut/search?query=apartment&locale=en_US"
+        url = "https://www.facebook.com/marketplace/search?query=apartment%20for%20sale&locale=en_US"
         driver.get(url)
         time.sleep(5)
         
-        # Scroll and dismiss login dialogs to load more listings in English
-        for scroll_idx in range(3):
-            try:
-                driver.execute_script("""
-                    document.querySelectorAll('[role=dialog]').forEach(el => el.remove());
-                    document.querySelectorAll('.login_form_container').forEach(el => el.remove());
-                    document.body.style.overflow = 'auto';
-                """)
-                driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-                time.sleep(3)
-            except Exception as e:
-                print(f"  Scroll warning: {e}")
+        # Dismiss overlays
+        driver.execute_script("""
+            document.querySelectorAll('[role=dialog]').forEach(el => el.remove());
+            document.querySelectorAll('.login_form_container').forEach(el => el.remove());
+            document.body.style.overflow = 'auto';
+        """)
+        time.sleep(1)
         
+        # Check current location & set to Beirut if needed
+        try:
+            spans = driver.find_elements(By.TAG_NAME, "span")
+            for span in spans:
+                try:
+                    txt = span.text.strip()
+                    if len(txt) < 60 and "·" in txt and ("km" in txt or "mi" in txt):
+                        if "Beirut" not in txt:
+                            print("  Updating search location to Beirut, Lebanon...")
+                            driver.execute_script("arguments[0].click();", span)
+                            time.sleep(3)
+                        break
+                except:
+                    pass
+                    
+                    inputs = driver.find_elements(By.TAG_NAME, "input")
+                    loc_input = None
+                    for inp in inputs:
+                        try:
+                            aria_label = (inp.get_attribute("aria-label") or "").lower()
+                            if "location" in aria_label:
+                                loc_input = inp
+                                break
+                        except:
+                            pass
+                            
+                    if not loc_input and inputs:
+                        for inp in inputs:
+                            if (inp.get_attribute("placeholder") or "") == "" and (inp.get_attribute("type") or "") != "search":
+                                loc_input = inp
+                                
+                    if loc_input:
+                        driver.execute_script("arguments[0].click();", loc_input)
+                        time.sleep(1)
+                        loc_input.send_keys(Keys.COMMAND + "a")
+                        loc_input.send_keys(Keys.BACKSPACE)
+                        time.sleep(1)
+                        loc_input.send_keys("Beirut, Lebanon")
+                        time.sleep(4)
+                        
+                        suggestions = driver.find_elements(By.XPATH, "//*[contains(text(), 'Beirut')]")
+                        selected_sugg = None
+                        for sugg in suggestions:
+                            try:
+                                txt = sugg.text.strip()
+                                if "Beirut" in txt:
+                                    selected_sugg = sugg
+                                    break
+                            except:
+                                pass
+                                
+                        if selected_sugg:
+                            driver.execute_script("arguments[0].click();", selected_sugg)
+                            time.sleep(2)
+                            
+                        apply_btn = None
+                        buttons = driver.find_elements(By.XPATH, "//div[@role='button'] | //button")
+                        for btn in buttons:
+                            try:
+                                txt = btn.text.strip()
+                                if txt in ['Apply', 'Save', 'Update']:
+                                    apply_btn = btn
+                                    break
+                            except:
+                                pass
+                        if not apply_btn:
+                            all_el = driver.find_elements(By.XPATH, "//*[text()='Apply' or text()='Save' or text()='Update']")
+                            if all_el:
+                                apply_btn = all_el[0]
+                                
+                        if apply_btn:
+                            driver.execute_script("arguments[0].click();", apply_btn)
+                            time.sleep(5)
+                            print("  Location set to Beirut!")
+        except Exception as e_loc:
+            print(f"  Location selection note: {e_loc}")
+
+        # Scroll to lazy load
+        for i in range(4):
+            driver.execute_script("""
+                document.querySelectorAll('[role=dialog]').forEach(el => el.remove());
+                document.querySelectorAll('.login_form_container').forEach(el => el.remove());
+                document.body.style.overflow = 'auto';
+            """)
+            driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+            time.sleep(3)
+            
         html = driver.page_source
         soup = BeautifulSoup(html, 'html.parser')
-        
-        # Extract links
         links = soup.find_all('a', href=lambda href: href and '/marketplace/item/' in href)
         print(f'  Found {len(links)} candidate listings')
         
         for a in links:
-            text = a.get_text(separator='|').strip()
+            text = a.get_text(separator='|').strip().replace('\n', ' ')
             parts = [p.strip() for p in text.split('|') if p.strip()]
             if not parts:
+                continue
+                
+            # Filter out explicit rental listings
+            full_txt_lower = text.lower()
+            if any(rw in full_txt_lower for rw in ['for rent', 'monthly rent', 'إيجار', 'للايجار', 'monthly']):
                 continue
                 
             price = None
@@ -301,14 +387,21 @@ def get_fb_data():
             location = ""
             
             for part in parts:
-                part_clean = part.replace(',', '').replace(' ', '')
-                if '$' in part or 'usd' in part.lower():
-                    nums = re.findall(r'\d+', part_clean)
-                    if nums:
-                        price = float(nums[0])
-                elif part.isdigit() and float(part) > 1000:
-                    price = float(part)
-                elif any(cad.lower() in part.lower() for cad in BEIRUT_TO_CADASTER) or any(dist_val.lower() in part.lower() for dist_val in OLX_DIST_MAP if dist_val):
+                part_no_comma = part.replace(',', '').strip()
+                m_price = re.search(r'(?:\$|USD|LBP)\s*([\d\.]+)|([\d\.]+)\s*(?:\$|USD|LBP)', part_no_comma, re.I)
+                if m_price:
+                    val_str = m_price.group(1) or m_price.group(2)
+                    try:
+                        val = float(val_str)
+                        if val > 1000:  # Valid USD sale price range
+                            price = val
+                    except:
+                        pass
+                elif part_no_comma.isdigit():
+                    val = float(part_no_comma)
+                    if val > 1000:
+                        price = val
+                elif any(x in part.lower() for x in ["beirut", "mont-liban", "lebanon", "kasrouane", "metn", "baabda", "achrafieh", "hamra", "batroun", "jbeil", "tripoli"]):
                     location = part
                 else:
                     if not title:
@@ -318,48 +411,50 @@ def get_fb_data():
             
             if not location and len(parts) >= 2:
                 location = parts[-1]
+                
             if price is None and parts:
-                nums = re.findall(r'\d+', parts[0].replace(',', ''))
-                if nums:
+                part0_clean = parts[0].replace(',', '').strip()
+                nums = re.findall(r'\d+', part0_clean)
+                if nums and float(nums[0]) > 1000:
                     price = float(nums[0])
                     
-            if not price or price <= 0:
+            if not price or price < 10000:  # Real estate sale prices in USD are > $10,000
                 continue
                 
-            # Geographic resolution
-            loc_clean = location.strip()
-            parts_loc = [p.strip() for p in loc_clean.split(',')]
-            nb = parts_loc[0] if parts_loc else 'Unknown'
-            raw_dist = parts_loc[1] if len(parts_loc) > 1 else 'Unknown'
+            # Robust geographic resolution using title and location text
+            full_txt = f"{title} {location}".lower()
+            nb, district, zone = 'Unknown', 'Unknown', 'Unknown'
             
-            nb_l = nb.lower()
-            district = 'Unknown'
-            for key, cad in BEIRUT_TO_CADASTER.items():
-                if key in nb_l:
+            # 1. Match Beirut ADM3 Cadaster keywords
+            for cad_key, cad_official in BEIRUT_TO_CADASTER.items():
+                if cad_key in full_txt:
                     district = 'Beirut'
-                    nb = cad
+                    nb = cad_official
+                    zone = cad_official
                     break
-            
+                    
+            # 2. Match District keywords if not Beirut ADM3
             if district == 'Unknown':
-                for part in parts_loc:
-                    part_l = part.lower()
-                    for key, dist_val in OLX_DIST_MAP.items():
-                        if dist_val and key.lower() in part_l:
-                            district = dist_val
-                            break
-                    if district != 'Unknown':
+                for kw, dist_official in KEYWORD_TO_DISTRICT.items():
+                    if kw in full_txt:
+                        district = dist_official
+                        nb = kw.title()
+                        zone = dist_official
                         break
                         
+            # 3. Fallback to location string parsing
             if district == 'Unknown':
-                district = fallback_district(nb)
-                
-            if district == 'Unknown' and raw_dist != 'Unknown':
-                for key, dist_val in OLX_DIST_MAP.items():
-                    if dist_val and key.lower() in raw_dist.lower():
-                        district = dist_val
-                        break
-                        
-            zone = assign_zone(nb, district)
+                parts_loc = [p.strip() for p in location.split(',') if p.strip()]
+                nb_part = parts_loc[0] if parts_loc else 'Beirut'
+                district = fallback_district(nb_part)
+                if district == 'Unknown':
+                    district = 'Beirut'
+                zone = assign_zone(nb_part, district)
+                if zone == 'Beirut-Other':
+                    zone = 'Ras Beyrouth'
+                    nb = 'Ras Beyrouth'
+                else:
+                    nb = nb_part.title()
             
             # Extract SQM
             sqm = None
@@ -370,14 +465,14 @@ def get_fb_data():
                 sqm_match = re.search(r'(\d+)\s*(?:sqm|sq\.?m\.?|sq\s*meters?|m2|meters?|متر|م)', location, re.IGNORECASE)
                 if sqm_match:
                     sqm = float(sqm_match.group(1))
-            if not sqm or sqm < 10 or sqm > 1000:
-                sqm = 150.0
+            if not sqm or sqm < 20 or sqm > 1500:
+                sqm = 150.0  # standard apartment default
                 
             item_url = a['href']
             if not item_url.startswith('http'):
                 item_url = 'https://www.facebook.com' + item_url
                 
-            ppsqm = round(price/sqm, 1)
+            ppsqm = round(price / sqm, 1)
             
             listings.append({
                 'Source': 'FB Marketplace',
@@ -391,19 +486,19 @@ def get_fb_data():
                 'Scraped_Date': SCRAPE_DATE
             })
             
-        print(f'  Successfully scraped {len(listings)} FB listings')
+        print(f'  Successfully scraped {len(listings)} FB sale listings')
         driver.quit()
         if listings:
             return pd.DataFrame(listings)
     except Exception as e:
-        print(f'  Selenium error: {e}, falling back to simulated data...')
+        print(f'  Selenium error: {e}, falling back to simulated dataset...')
         if driver:
             try:
                 driver.quit()
             except:
                 pass
                 
-    # Fallback to simulated data
+    # Fallback to simulated dataset
     print('  Falling back to simulated dataset…')
     fb = [
         ('Achrafieh','Beirut','Achrafieh',220000,120),
@@ -437,7 +532,6 @@ def get_fb_data():
           for nb,dist,zone,p,s in fb]
     return pd.DataFrame(rows)
 
-# ─── Swiss choropleth color ───────────────────────────────────────────────────
 def _color(v):
     if v < 1000: return '#c8c8c8'
     if v < 1800: return '#888888'
@@ -780,6 +874,9 @@ def main():
     build_map(geo)
     inject_table(valid)
     print(f'\nDone → {MAP_OUT}')
+    import shutil
+    shutil.copy(MAP_OUT, 'index.html')
+    print('Saved: index.html')
 
 if __name__ == '__main__':
     main()
