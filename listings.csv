@@ -1,102 +1,445 @@
 Source,URL,Neighborhood,District,Zone,Price_USD,Area_SQM,Price_Per_SQM,Scraped_Date
-Dubizzle,https://www.olx.com.lb/ad/achrafieh-sale-prime-location-ref-pa139-ID116956868.html,Beirut,Unknown,Unknown,250000.0,140.0,1785.7,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/ajaltoun-valley-220m2-villa-150m2-garden-gated-community-tyt-ID116971571.html,Unknown,Unknown,Unknown,475000.0,220.0,2159.1,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-rawche-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D8%B1%D9%88%D8%B4%D8%A9-cpbhs153-ID116981915.html,Rawche,Beirut,Ras Beyrouth,925000.0,285.0,3245.6,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/ajaltoun-190m2-130m2-garden-oepn-view-prime-location-to-ID117008705.html,Unknown,Unknown,Unknown,270000.0,190.0,1421.1,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/ballouneh-170m2-duplex-fully-furnished-designers-signature-ID115759566.html,Unknown,Unknown,Unknown,310000.0,170.0,1823.5,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/new-apartment-for-sale-close-to-beirutseaview2poolsgym24th-floor-ID116072387.html,Dekwaneh,El Meten,El Meten,377000.0,130.0,2900.0,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/prime-location-fully-renovated-apartment-in-jal-el-dib-with-open-view-ID117034136.html,Jal El Dib,El Meten,El Meten,265000.0,200.0,1325.0,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/ballouneh-650m2-villa-panoramic-view-ultra-prime-unique-ID112399412.html,Unknown,Unknown,Unknown,1300000.0,650.0,2000.0,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/apartment-in-a-prime-tower-for-sale-in-achrafieh-rmeil%E2%80%93cpbrc10-ID116926281.html,Beirut,Unknown,Unknown,1155000.0,330.0,3500.0,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-mtayleb-prime-location-cpcf363-ID116929631.html,Mtayleb,El Meten,El Meten,750000.0,260.0,2884.6,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/modern-simplex-for-sale-in-batroun-prime-location-fully-furnished-ID116966028.html,Batroun Town,El Batroun,El Batroun,295000.0,80.0,3687.5,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-waterfront-dbaye-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%B6%D8%A8%D9%8A%D8%A9-ID116840946.html,Dbaye,El Meten,El Meten,1050000.0,250.0,4200.0,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/under-construction-for-sale-in-rawche%D8%AA%D8%AD%D8%AA-%D8%A7%D9%84%D8%A5%D9%86%D8%B4%D8%A7%D8%A1-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D8%B1%D9%88%D8%B4%D8%A9-ID116602939.html,Rawche,Beirut,Ras Beyrouth,840000.0,180.0,4666.7,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-rabweh-with-terrace-cpcf330-ID116782798.html,Rabweh,El Meten,El Meten,375000.0,250.0,1500.0,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-chalimar-baabdat-cpes284-ID116894908.html,Baabdat,El Meten,El Meten,450000.0,260.0,1730.8,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-achrafieh-sioufi-prime-location%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D8%A3%D8%B4%D8%B1%D9%81%D9%8A-ID117035892.html,Sioufi,Beirut,Achrafieh,360000.0,155.0,2322.6,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/stunning-apartment-with-a-120m%C2%B2terrace-breathtaking-views-in-baabdat-ID116986749.html,Baabdat,El Meten,El Meten,290000.0,160.0,1812.5,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/rabwe-220-sqm-150-sqm-garden-fully-decorated-and-semi-furnished-ID116975258.html,Rabweh,El Meten,El Meten,385000.0,220.0,1750.0,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/ballouneh-320m2-duplex-new-panoramic-view-unique-property-ac-ID116233677.html,Unknown,Unknown,Unknown,325000.0,320.0,1015.6,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/catch-apartment-in-manara-prime-200sq-3-bedrooms-am-316-ID116697692.html,Manara,Beirut,Ras Beyrouth,625000.0,200.0,3125.0,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/180m%C2%B2-apartment-for-sale-haret-sakher-furnished-decorated-ID117035836.html,Unknown,Unknown,Unknown,180000.0,180.0,1000.0,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/bsalim-s-finest-panoramic-penthouse-ID117018402.html,Bsalim,El Meten,El Meten,900000.0,400.0,2250.0,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/fanar-prime-residence-%D8%A5%D9%82%D8%A7%D9%85%D8%A9-%D9%85%D9%85%D9%8A%D8%B2%D8%A9-%D9%81%D9%8A-%D9%85%D9%88%D9%82%D8%B9-%D8%B1%D8%A6%D9%8A%D8%B3%D9%8A-%D9%81%D9%8A-%D8%A7%D9%84%D9%81%D9%86%D8%A7%D8%B1-ID117021991.html,Fanar,El Meten,El Meten,195000.0,160.0,1218.8,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/deluxe-new-apartment-for-sale-in-dahr-el-sawan-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%B6%D9%87%D8%B1-%D8%A7%D9%84%D8%B5%D9%88%D8%A7%D9%86-ID117017436.html,Dahr El Sawan,El Meten,El Meten,280000.0,200.0,1400.0,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-hazmieh-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D8%AD%D8%A7%D8%B2%D9%85%D9%8A%D8%A9-cpmk229-ID117011891.html,Hazmieh,Baabda,Baabda,880000.0,340.0,2588.2,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-chbaniyeh-hammana-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%B4%D8%A8%D8%A7%D9%86%D9%8A%D9%87-%D8%AD%D9%85%D8%A7%D9%86%D8%A7-ID107284962.html,Chbaniyeh,Baabda,Baabda,185000.0,120.0,1541.7,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/high-end-apartment-for-sale-in-achrafieh-cpbec34-ID117032366.html,Achrafieh,Beirut,Achrafieh,420000.0,131.0,3206.1,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/high-end-apartment-for-sale-mansourieh-%D8%B4%D9%82%D8%A9-%D8%AF%D9%88%D9%84%D9%83%D8%B3-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D8%A7%D9%84%D9%85%D9%86%D8%B5%D9%88%D8%B1%D9%8A%D8%A9-ID116778088.html,Mansourieh,El Meten,El Meten,275000.0,135.0,2037.0,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-waterfront-city-dbaye-ID116095439.html,Dbaye,El Meten,El Meten,1400000.0,340.0,4117.6,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/new-project-for-sale-in-zalka-%D9%85%D8%B4%D8%B1%D9%88%D8%B9-%D8%AC%D8%AF%D9%8A%D8%AF-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D8%B2%D9%84%D9%82%D8%A7-ID116971376.html,Zalka,El Meten,El Meten,180000.0,100.0,1800.0,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/ballouneh-220m2-high-end-panoramic-view-unique-property-my-ID115938647.html,Unknown,Unknown,Unknown,300000.0,220.0,1363.6,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/prime-location-biyada-%D9%85%D9%88%D9%82%D8%B9-%D9%85%D9%85%D9%8A%D8%B2-%D9%81%D9%8A-%D8%A8%D9%8A%D8%A7%D8%B6%D8%A9-ID116997746.html,Biyada,El Meten,El Meten,500000.0,240.0,2083.3,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-mansourieh-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%86%D8%B5%D9%88%D8%B1%D9%8A%D8%A9-ID116826279.html,Mansourieh,El Meten,El Meten,235000.0,250.0,940.0,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-nabay-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D9%86%D8%A7%D8%A8%D9%8A%D9%87-ID116933358.html,Nabay,El Meten,El Meten,245000.0,285.0,859.6,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-ballouneh-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D9%85%D9%86%D8%B7%D9%82%D8%A9-%D8%A8%D9%84%D9%88%D9%86%D9%87-ID116669804.html,Unknown,Unknown,Unknown,250000.0,320.0,781.2,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/appartment-for-sale-in-blat-jbeil-ID116828191.html,Blat,Jbeil,Jbeil,129000.0,145.0,889.7,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-sehayleh-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%B3%D9%87%D9%8A%D9%84%D8%A9-ID116995970.html,Unknown,Unknown,Unknown,230000.0,140.0,1642.9,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/sr1016-apartment-for-sale-jal-el-dib-mezher%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D8%AC%D9%84-%D8%A7%D9%84%D8%AF%D9%8A%D8%A8-%D9%85%D8%B2%D9%87%D8%B1-ID116995858.html,Jal El Dib,El Meten,El Meten,125000.0,121.0,1033.1,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-mansourieh-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%86%D8%B5%D9%88%D8%B1%D9%8A%D8%A9-ID116964834.html,Mansourieh,El Meten,El Meten,270000.0,170.0,1588.2,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/140-sqm-apartment-in-qornet-el-hamra-metn-35-sqm-terrace-ID116941014.html,SQM Apartment in Qornet El Hamra,El Meten,El Meten,123000.0,140.0,878.6,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/sr1006-apartment-for-sale-in-matn-bsalim-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D8%AA%D9%86-%D8%A8%D8%B5%D8%A7%D9%84%D9%8A%D9%85-ID116934590.html,Bsalim,El Meten,El Meten,165000.0,100.0,1650.0,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/3-bedrooms-apartment-with-garden-for-sale-maska-ID116858245.html,Broummana,El Meten,El Meten,340000.0,305.0,1114.8,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/high-end-apartment-in-qornet-chehwane-metn-with-sea-and-mountain-view-ID116807754.html,High End Apartment in Qornet Chehwane,El Meten,El Meten,525000.0,250.0,2100.0,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/rabwe-decorated-225-sqm-170-sqm-elevated-garden-with-view-ID116706262.html,Rabweh,El Meten,El Meten,370000.0,190.0,1947.4,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/blat-jbeil-sea-view-140-sqm-250-sqm-rooftop-terrace-ID116023018.html,Blat,Jbeil,Jbeil,200000.0,80.0,2500.0,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/fully-furnished-170sqm-for-only-160000-in-fanar-ID115300078.html,Fanar,El Meten,El Meten,170000.0,170.0,1000.0,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-achrafieh-hn-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D8%A7%D8%B4%D8%B1%D9%81%D9%8A%D8%A9-ID117039829.html,Sioufi,Beirut,Achrafieh,340000.0,140.0,2428.6,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-achrafieh-hn-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D8%A7%D8%B4%D8%B1%D9%81%D9%8A%D8%A9-ID117039826.html,Beirut,Unknown,Unknown,730000.0,230.0,3173.9,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-burj-abi-haidar-110-sqm-ID117039815.html,Burj Abi Haidar,Beirut,Beirut-Other,160000.0,110.0,1454.5,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/7-apartments-available-in-a-new-building-at-bchamoun-ID117039823.html,Bchamoun,Aley,Aley,264000.0,240.0,1100.0,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/apartments-for-sale-zalka-rh302183-ID117024782.html,Zalka,El Meten,El Meten,135000.0,103.0,1310.7,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/gmk503jh-apartment-for-sale-in-faitroun-%D8%B4%D9%82-%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D9%81%D9%8A%D8%AA%D8%B1%D9%88%D9%86-ID117023661.html,Unknown,Unknown,Unknown,170000.0,200.0,850.0,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/rf1021-mountain-sea-view-apt-for-sale-in-jbeil-blat-ID117022731.html,Blat,Jbeil,Jbeil,89000.0,115.0,773.9,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-baabda-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A8%D8%B9%D8%A8%D8%AF%D8%A7-ID116997518.html,Other in Baabda,Baabda,Baabda,445000.0,160.0,2781.2,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-rabweh-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D8%B1%D8%A8%D9%88%D8%A9-ID116991302.html,Rabweh,El Meten,El Meten,125000.0,110.0,1136.4,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-douar-ed302141-ID116986601.html,Douar,El Meten,El Meten,150000.0,150.0,1000.0,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/225sqm-super-deluxe-apartment-for-sale-in-mar-chaaya-ID116977824.html,Mar Chaaya,El Meten,El Meten,430000.0,225.0,1911.1,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/apartments-for-sale-in-zekrit-%D8%B4%D9%82%D9%82-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%B2%D9%83%D8%B1%D9%8A%D8%A9-ID116944362.html,Zakrit,El Meten,El Meten,218000.0,150.0,1453.3,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-%7C-zouk-mikael-keserwan--ref%3A-%23yn302069-ID116925792.html,Unknown,Unknown,Unknown,132600.0,102.0,1300.0,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/mf1014-apartment-for-sale-in-batroun%2F%D8%B4%D9%82%D9%91%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D8%A8%D8%AA%D8%B1%D9%88%D9%86-ID116910152.html,Batroun Town,El Batroun,El Batroun,110000.0,125.0,880.0,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/duplex-for-sale-sarba-keserwan-ref-yn201042-ID116882022.html,Unknown,Unknown,Unknown,190000.0,165.0,1151.5,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/for-sale-in-adonis-ID116881268.html,Unknown,Unknown,Unknown,145000.0,165.0,878.8,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/220-sqm-fully-furnished-apartment-in-mar-roukoz-ID117030946.html,Mar Roukoz,El Meten,El Meten,350000.0,220.0,1590.9,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/155-sqm-apartment-in-nabay-with-view-ID117030935.html,Nabay,El Meten,El Meten,145000.0,155.0,935.5,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/130-sqm-good-location-apartment-in-new-rawda-ID117006957.html,New Rawda,El Meten,El Meten,140000.0,130.0,1076.9,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/160-sqm-fully-furnished-apartment-in-bsalim-ID116985406.html,Bsalim,El Meten,El Meten,280000.0,160.0,1750.0,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/115-sqm-brand-new-apartment-in-bsalim-ID116985360.html,Bsalim,El Meten,El Meten,165000.0,115.0,1434.8,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/villa-for-sale-in-qanat-bakish-faqra-ID116983482.html,Qanat Beqish,El Meten,El Meten,1800000.0,400.0,4500.0,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/150-sqm-apartment-in-jal-el-dib-with-panoramic-sea-view-ID116941076.html,Jal El Dib,El Meten,El Meten,225000.0,150.0,1500.0,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/115-sqm-apartment-in-sin-el-fil-in-a-prime-location-ID116933142.html,Sin El Fil,El Meten,El Meten,115000.0,115.0,1000.0,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/125-sqm-fully-furnished-apartment-in-sabtieh-ID116931602.html,Sabtieh,El Meten,El Meten,120000.0,125.0,960.0,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/150-sqm-apartment-in-achrafieh-with-payment-facilities-ID116915909.html,Beirut,Unknown,Unknown,350000.0,150.0,2333.3,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/135-sqm-brand-new-apartment-in-mansourieh-ID116915879.html,Mansourieh,El Meten,El Meten,190000.0,135.0,1407.4,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/190-sqm-apartment-in-fanar-with-sea-%26-city-view-ID116915816.html,Fanar,El Meten,El Meten,188000.0,190.0,989.5,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/apartment-with-terrace-for-sale-in-rabieh-ID116909781.html,Rabieh,El Meten,El Meten,975000.0,360.0,2708.3,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/high-end-240sqm-apartment-with-garden-in-mar-chaaya-ID116894357.html,Mar Chaaya,El Meten,El Meten,400000.0,240.0,1666.7,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/jal-el-dib-decorated-3-bedrooms-apart-new-building-open-sea-view-ID116861822.html,Jal El Dib,El Meten,El Meten,204900.0,140.0,1463.6,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/200-sqm-fully-furnished-apartment-decorated-in-mansourieh-ID116847768.html,Mansourieh,El Meten,El Meten,210000.0,200.0,1050.0,2026-08-22 06:18
-Dubizzle,https://www.olx.com.lb/ad/112-sqm-brand-new-apartment-in-zalka-ID116838398.html,Zalka,El Meten,El Meten,190000.0,112.0,1696.4,2026-08-22 06:18
-FB Marketplace,https://www.facebook.com/marketplace,Achrafieh,Beirut,Achrafieh,220000.0,120.0,1833.3,2026-08-22 06:18
-FB Marketplace,https://www.facebook.com/marketplace,Achrafieh,Beirut,Achrafieh,350000.0,180.0,1944.4,2026-08-22 06:18
-FB Marketplace,https://www.facebook.com/marketplace,Hamra,Beirut,Ras Beyrouth,180000.0,110.0,1636.4,2026-08-22 06:18
-FB Marketplace,https://www.facebook.com/marketplace,Verdun,Beirut,Moussaytbeh,340000.0,170.0,2000.0,2026-08-22 06:18
-FB Marketplace,https://www.facebook.com/marketplace,Badaro,Beirut,Mazraa,260000.0,140.0,1857.1,2026-08-22 06:18
-FB Marketplace,https://www.facebook.com/marketplace,Jnah,Beirut,Saifeh,380000.0,210.0,1809.5,2026-08-22 06:18
-FB Marketplace,https://www.facebook.com/marketplace,Ras Beirut,Beirut,Ras Beyrouth,450000.0,210.0,2142.9,2026-08-22 06:18
-FB Marketplace,https://www.facebook.com/marketplace,Mar Mikhael,Beirut,Remeil,195000.0,100.0,1950.0,2026-08-22 06:18
-FB Marketplace,https://www.facebook.com/marketplace,Ramlet el Bayda,Beirut,Moussaytbeh,580000.0,260.0,2230.8,2026-08-22 06:18
-FB Marketplace,https://www.facebook.com/marketplace,Gemmayzeh,Beirut,Saifeh,280000.0,130.0,2153.8,2026-08-22 06:18
-FB Marketplace,https://www.facebook.com/marketplace,Ain El Mraiseh,Beirut,Ain el-Mreisseh,420000.0,170.0,2470.6,2026-08-22 06:18
-FB Marketplace,https://www.facebook.com/marketplace,Sin El Fil,El Meten,El Meten,140000.0,90.0,1555.6,2026-08-22 06:18
-FB Marketplace,https://www.facebook.com/marketplace,Bourj Hammoud,El Meten,El Meten,95000.0,75.0,1266.7,2026-08-22 06:18
-FB Marketplace,https://www.facebook.com/marketplace,Jal El Dib,El Meten,El Meten,170000.0,95.0,1789.5,2026-08-22 06:18
-FB Marketplace,https://www.facebook.com/marketplace,Chiyah,Baabda,Baabda,105000.0,80.0,1312.5,2026-08-22 06:18
-FB Marketplace,https://www.facebook.com/marketplace,Hazmieh,Baabda,Baabda,250000.0,110.0,2272.7,2026-08-22 06:18
-FB Marketplace,https://www.facebook.com/marketplace,Jounieh,Kesrwane,Kesrwane,200000.0,100.0,2000.0,2026-08-22 06:18
-FB Marketplace,https://www.facebook.com/marketplace,Tripoli,Tripoli,Tripoli,75000.0,85.0,882.4,2026-08-22 06:18
-FB Marketplace,https://www.facebook.com/marketplace,Batroun,El Batroun,El Batroun,120000.0,90.0,1333.3,2026-08-22 06:18
-FB Marketplace,https://www.facebook.com/marketplace,Saida,Saida,Saida,90000.0,100.0,900.0,2026-08-22 06:18
-FB Marketplace,https://www.facebook.com/marketplace,Tyre,Sour,Sour,70000.0,80.0,875.0,2026-08-22 06:18
-FB Marketplace,https://www.facebook.com/marketplace,Zahle,Zahle,Zahle,100000.0,110.0,909.1,2026-08-22 06:18
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-jnah-cpbhs16-ID116896128.html,Jnah,Beirut,Saifeh,650000.0,280.0,2321.4,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ballouneh-250m2-prime-location-furnished-upgraded-catch-tyt-ID117030163.html,Unknown,Unknown,Unknown,385000.0,250.0,1540.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/hot-deal-luxurious-triplex-villa-for-sale-in-rabieh-wa-ID117027453.html,Rabieh,El Meten,El Meten,3200000.0,1000.0,3200.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/spacious-apartment-with-panoramic-mountain-views-for-sale-in-beit-me-ID116996035.html,Beit Mery,El Meten,El Meten,330000.0,190.0,1736.8,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ajaltoun-240m2-house-prime-location-excellent-condition-tt-ID116542486.html,Unknown,Unknown,Unknown,350000.0,240.0,1458.3,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ballouneh-200m2-50m2-garden-furnished-upgraded-view-catchbg-ID116495435.html,Unknown,Unknown,Unknown,320000.0,200.0,1600.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/3-beds-open-view-broummana-prime-balconies-chimney-br-409-ID117010468.html,Broummana,El Meten,El Meten,299000.0,200.0,1495.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-blat-jbeil-ID117022549.html,Blat,Jbeil,Jbeil,85000.0,120.0,708.3,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/detached-apartment-for-sale-in-maska-%D9%85%D9%86%D8%B2%D9%84-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D8%B3%D9%82%D9%89-%D8%A8%D8%B1%D9%85%D8%A7%D9%86%D8%A7-ID116974842.html,Masqa and Ghabe,El Meten,El Meten,175000.0,175.0,1000.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/jeita-180m2-panoramic-view-luxury-calm-area-prime-location-el-ID116324950.html,Unknown,Unknown,Unknown,200000.0,180.0,1111.1,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/jeita-230m2-100m2-terrace-calm-street-furnished-catch-to-ID115922489.html,Unknown,Unknown,Unknown,245000.0,230.0,1065.2,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/duplex-for-sale-in-sheileh-keserwan-%D8%AF%D8%A8%D9%84%D9%83%D8%B3-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D8%B3%D9%87%D9%8A%D9%84%D8%A9-%D9%83%D8%B3%D8%B1%D9%88%D8%A7%D9%86-ID115921858.html,Unknown,Unknown,Unknown,330000.0,370.0,891.9,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ajaltoun-200m2-luxury-brand-new-mountain-view-ID114845134.html,Unknown,Unknown,Unknown,200000.0,200.0,1000.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/170-sqm-200-sqm-terrace-apartment-for-sale-in-ain-el-rihani-600sqm-ID116853717.html,Unknown,Unknown,Unknown,135000.0,170.0,794.1,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/zahle-fully-furnished-decorated-terrace-open-view-ref-6771-ID116633804.html,Ain el Ghossein,Zahle,Zahle,130000.0,143.0,909.1,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/brand-new-140-sqm-100-sqm-terrace-apartment-for-sale-in-dbayeh-prime-ID117014197.html,Dbaye,El Meten,El Meten,275000.0,140.0,1964.3,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/130-sqm-dully-renovated-apartment-in-zouk-mosbeh-calm-area-ID116982711.html,Unknown,Unknown,Unknown,130000.0,130.0,1000.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ajaltoun-140m2-terrace-furnished-view-prime-location-kh-ID116973220.html,Unknown,Unknown,Unknown,155000.0,140.0,1107.1,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ajaltoun-80m2-500m2-garden-private-street-unique-property-tyt-ID116970025.html,Unknown,Unknown,Unknown,200000.0,80.0,2500.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/136-sqm-apartment-for-sale-in-antelias-esken-eligible-ID116968766.html,Antelias,El Meten,El Meten,140000.0,136.0,1029.4,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/250-sqm-apartment-for-sale-in-ajaltoun-high-end-ID116968252.html,Unknown,Unknown,Unknown,260000.0,250.0,1040.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ajaltoun-175m2-%7C-full-y-furnished-%7C-panoramic-view-%7C-prime-locaiton%7Cwa-ID116922511.html,Unknown,Unknown,Unknown,200000.0,175.0,1142.9,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ain-el-rihaneh-125m2-renovated-prime-location-quiet-area-el-ID116896517.html,Unknown,Unknown,Unknown,85000.0,125.0,680.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ajaltoun-165m2-mountain-view-catch-quiet-street-to-ID116814417.html,Unknown,Unknown,Unknown,210000.0,165.0,1272.7,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ajaltoun-175m2-classy-area-excellent-condition-flat-to-ID116664632.html,Unknown,Unknown,Unknown,158000.0,175.0,902.9,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/jeitaain-el-rihaneh-140m2-high-end-open-view-el-ID116637619.html,Unknown,Unknown,Unknown,125000.0,140.0,892.9,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ajaltoun-115m2-furnished-flat-decorated-open-mountain-view-ro-ID116495202.html,Unknown,Unknown,Unknown,155000.0,115.0,1347.8,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/165-sqm-apartment-in-new-sheileh-keserwan-high-end-ID116114047.html,Unknown,Unknown,Unknown,210000.0,165.0,1272.7,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/sheileh-220m2-60m2-terrace-luxurious-private-street-my-ID115663423.html,Unknown,Unknown,Unknown,250000.0,220.0,1136.4,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ballouneh-330m2-fully-furnished-high-end-sea-view-ID106397914.html,Unknown,Unknown,Unknown,300000.0,330.0,909.1,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/faqra-club-carr%C3%A9-d-or-chalet-4-bedrooms-307-sqm-ID117041276.html,Unknown,Unknown,Unknown,1100000.0,307.0,3583.1,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ajaltoun-165m2-30m2-terrace-astonishing-view-private-street-to-ID117013629.html,Unknown,Unknown,Unknown,220000.0,165.0,1333.3,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ballouneh-100m2-well-maintained-perfect-catch-el-ID116986467.html,Unknown,Unknown,Unknown,130000.0,100.0,1300.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ballouneh-165m2-brand-new-luxury-apartment-view-to-ID116964817.html,Unknown,Unknown,Unknown,223000.0,165.0,1351.5,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ballouneh-170m2-%7C-100m2-garden-%7C-prime-location-%7C-catch-%7C-el-ID116920831.html,Unknown,Unknown,Unknown,150000.0,170.0,882.4,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ajaltoun-150m2-well-maintained-panoramic-view-calm-area-tooh-ID116884315.html,Unknown,Unknown,Unknown,150000.0,150.0,1000.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ajaltoun-210m2-renovated-flat-prime-location-calm-street-elda-ID116876062.html,Unknown,Unknown,Unknown,162000.0,210.0,771.4,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ballouneh-150m2-open-view-well-lighted-catch-el-ID116872533.html,Unknown,Unknown,Unknown,145000.0,150.0,966.7,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ballouneh-245m2-well-maintained-perfect-catch-el-ID116855631.html,Unknown,Unknown,Unknown,155000.0,145.0,1069.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ballouneh-145m2-different-sizes-calm-area-open-view-new-to-ID116853756.html,Unknown,Unknown,Unknown,203000.0,145.0,1400.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ajaltoun-210m2-70m2-terrace-garden-high-end-brand-new-view-ID116840775.html,Unknown,Unknown,Unknown,225000.0,210.0,1071.4,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ballouneh-140m2-furnished-flat-open-view-calm-area-el-ID116837046.html,Unknown,Unknown,Unknown,140000.0,140.0,1000.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ajaltoun-200m2-fully-furnished-luxury-flat-partial-sea-viewda-ID116834436.html,Unknown,Unknown,Unknown,155000.0,200.0,775.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/rwb194rh-project-under-construction-in-batroun-with-sea-and-mountain-ID116958576.html,Batroun Town,El Batroun,El Batroun,129000.0,134.0,962.7,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-rabweh-with-terrace-cpcf330-ID116782798.html,Rabweh,El Meten,El Meten,375000.0,250.0,1500.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/deluxe-apartment-for-sale-in-ainab-%D8%B4%D9%82%D8%A9-%D9%81%D8%A7%D8%AE%D8%B1%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%B9%D9%8A%D9%86%D8%A7%D8%A8-ID116401821.html,Ainab,Aley,Aley,135000.0,170.0,794.1,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/4-bedrooms-sea-view-beit-merry-3-parking-spots-bm-261-ID116895727.html,Beit Mery,El Meten,El Meten,470000.0,230.0,2043.5,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-ain-saadeh-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%B9%D9%8A%D9%86-%D8%B3%D8%B9%D8%A7%D8%AF%D8%A9-ID116933621.html,Ain Saadeh,El Meten,El Meten,370000.0,220.0,1681.8,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/for-sale-appartment-in-faytroun-ID117019856.html,Unknown,Unknown,Unknown,75000.0,80.0,937.5,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-hazmieh-spacious-luminous-calm-area-ID116992809.html,Hazmieh,Baabda,Baabda,420000.0,180.0,2333.3,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-achrafieh-ID116884466.html,Beirut,Unknown,Unknown,310000.0,76.0,4078.9,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-breij-installments-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-pls-2634714-ID116586546.html,Breij,Jbeil,Jbeil,105000.0,100.0,1050.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-blaybel-cpdd73-ID116884762.html,Blaybel,Baabda,Baabda,150000.0,130.0,1153.8,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ballouneh-130m2-mint-condition-open-view-fully-furnished-ks-ID116825806.html,Unknown,Unknown,Unknown,135000.0,130.0,1038.5,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ballouneh-220m2-open-view-calm-street-prime-location-el-ID116818393.html,Unknown,Unknown,Unknown,220000.0,220.0,1000.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ballouneh-200m2-luxury-apartment-open-view-prime-area-to-ID116817529.html,Unknown,Unknown,Unknown,215000.0,200.0,1075.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ajaltoun-220m2-super-catch-well-maintained-view-to-ID116810779.html,Unknown,Unknown,Unknown,140000.0,220.0,636.4,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ballouneh-165m2-classy-area-classic-prime-location-to-ID116779495.html,Unknown,Unknown,Unknown,155000.0,165.0,939.4,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ajaltoun-180m2-100m2-terrace-well-maintained-open-view-to-ID116714890.html,Unknown,Unknown,Unknown,115000.0,180.0,638.9,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ballouneh-300m2-villa-80m2-garden-well-maintained-private-street-ID116703640.html,Unknown,Unknown,Unknown,500000.0,300.0,1666.7,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ballouneh-180m2-furnished-duplex-unlockable-view-toha-ID116687815.html,Unknown,Unknown,Unknown,200000.0,180.0,1111.1,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ballouneh-145m2-85m2-terrace-decorated-mint-condition-view-to-ID116601153.html,Unknown,Unknown,Unknown,165000.0,145.0,1137.9,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ajaltoun-125m2-prime-location-excellent-condition-decorated-to-ID116593724.html,Unknown,Unknown,Unknown,115000.0,125.0,920.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ajaltoun-190m2-duplex-quiet-street-prime-location-el-ID116381183.html,Unknown,Unknown,Unknown,140000.0,190.0,736.8,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ballouneh-165m2-townhouse-partial-view-high-end-catch-ksto-ID116317727.html,Unknown,Unknown,Unknown,120000.0,165.0,727.3,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ballouneh-270m2-excellent-condition-sea-view-renovated-el-ID116133073.html,Unknown,Unknown,Unknown,250000.0,270.0,925.9,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ballouneh-145m2-100m2-terrace-private-entrance-view-new-ID116042154.html,Unknown,Unknown,Unknown,199000.0,145.0,1372.4,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ajaltoun-130m2-luxury-prime-location-view-catch-to-ID116019399.html,Unknown,Unknown,Unknown,117000.0,130.0,900.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ajaltoun-120m2-brand-new-open-sea-view-luxury-ks-ID115977365.html,Unknown,Unknown,Unknown,110000.0,120.0,916.7,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ballouneh-200m2-duplex-well-maintained-private-entrance-to-ID115944319.html,Unknown,Unknown,Unknown,140000.0,200.0,700.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ajaltoun-260m2-designers-signature-view-furnished-el-ID115944063.html,Unknown,Unknown,Unknown,260000.0,260.0,1000.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ballouneh-130m2-new-payment-facilities-luxurious-view-my-ID115930661.html,Unknown,Unknown,Unknown,187000.0,130.0,1438.5,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ajaltoun-120m2-furnished-mountain-view-decorated-calm-area-to-ID115747538.html,Unknown,Unknown,Unknown,140000.0,120.0,1166.7,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ballouneh-320m2-30m2-terrace-duplex-astonishing-view-to-ID117013659.html,Unknown,Unknown,Unknown,260000.0,320.0,812.5,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/sheileh-15m2-decorated-open-view-calm-area-private-street-to-ID117011049.html,Unknown,Unknown,Unknown,190000.0,155.0,1225.8,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/jeita-185m2-open-view-luxury-flat-quiet-street-catch-to-ID116990206.html,Unknown,Unknown,Unknown,188000.0,185.0,1016.2,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/sheileh-150m2-furnished-calm-area-open-view-catch-el-ID116983581.html,Unknown,Unknown,Unknown,125000.0,150.0,833.3,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/sheileh-200m2-100m2-terrace-furnished-prime-location-el-ID116983551.html,Unknown,Unknown,Unknown,190000.0,200.0,950.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/sheileh-250m2-250m2-terrace-prime-location-catch-view-el-ID116983484.html,Unknown,Unknown,Unknown,240000.0,250.0,960.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/sheileh-140m2-mint-condition-panoramic-view-catch-el-ID116964596.html,Unknown,Unknown,Unknown,145000.0,140.0,1035.7,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ballouneh-160m2-120m2-terrace-rooftop-mountain-view-to-ID116951346.html,Unknown,Unknown,Unknown,180000.0,160.0,1125.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ain-el-rihaneh-175m2-%7C-prime-location-%7C-private-street-%7C-el-ID116920912.html,Unknown,Unknown,Unknown,175000.0,175.0,1000.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/sheileh-100m2-%7C-prime-location-%7C-calm-area-%7C-catch-%7C-to-ID116919854.html,Unknown,Unknown,Unknown,132000.0,100.0,1320.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/sheileh-135m2-brand-flat-calm-area-well-lighted-open-view-el-ID116876699.html,Unknown,Unknown,Unknown,145000.0,135.0,1074.1,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/sheileh-360m2-duplex-100m2-terrace-designers-signature-tyt-ID116850251.html,Unknown,Unknown,Unknown,400000.0,360.0,1111.1,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-achrafieh-mls-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D8%A7%D8%B4%D8%B1%D9%81%D9%8A%D8%A9-ID117040503.html,Sassine,Beirut,Achrafieh,550000.0,168.0,3273.8,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ballouneh-650m2-villa-panoramic-view-ultra-prime-unique-ID112399412.html,Unknown,Unknown,Unknown,1300000.0,650.0,2000.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/achrafieh-sale-prime-location-ref-pa139-ID116956868.html,Beirut,Unknown,Unknown,250000.0,140.0,1785.7,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/catch-deal-apartment-for-sale-in-haret-sakher-240m2-full-sea-view-ID116877898.html,Unknown,Unknown,Unknown,350000.0,240.0,1458.3,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-manara-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D8%B1%D8%A9-ID117022884.html,Manara,Beirut,Ras Beyrouth,950000.0,235.0,4042.6,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/new-apartment-for-sale-in-mansourieh-%D8%B4%D9%82%D8%A9-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%86%D8%B5%D9%88%D8%B1%D9%8A%D8%A9-ID116625418.html,Mansourieh,El Meten,El Meten,140000.0,135.0,1037.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-with-garden-for-sale-in-baabdat-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-ss-ID117007329.html,Baabdat,El Meten,El Meten,429999.0,150.0,2866.7,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ajaltoun-150m2-new-panoramic-view-calm-area-private-street-to-ID116619159.html,Unknown,Unknown,Unknown,195000.0,150.0,1300.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/mountain-apartment-for-sale-in-bourj-abi-haidar-beirut-%D8%A8%D8%B1%D8%AC-%D8%A3%D8%A8%D9%8A-%D8%AD%D9%8A%D8%AF%D8%B1-ID117022141.html,ain Apartment For Sale In Burj Abi Haidar,Beirut,Beirut-Other,159000.0,110.0,1445.5,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-badaro-%E2%80%93-cpbzk19-ID116923832.html,Badaro,Beirut,Mazraa,700000.0,250.0,2800.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/sheileh-125m2-mountain-view-luxury-quiet-street-el-ID116840268.html,Unknown,Unknown,Unknown,110000.0,125.0,880.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/sheileh-215m2-100m2-terrace-view-private-street-luxurious-wa-ID116836500.html,Unknown,Unknown,Unknown,260000.0,215.0,1209.3,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/sheileh-360m2-furnished-super-luxurious-panoramic-view-tomch-ID116802365.html,Unknown,Unknown,Unknown,500000.0,360.0,1388.9,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/jeita-165m2-fully-upgraded-decorated-panoramic-sea-view-el-ID116798364.html,Unknown,Unknown,Unknown,220000.0,165.0,1333.3,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ain-el-rihaneh-165m2-mint-condition-calm-street-open-view-el-ID116798311.html,Unknown,Unknown,Unknown,130000.0,165.0,787.9,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/sheileh-140m2-120m2-terrace-semi-furnished-luxiry-open-view-to-ID116739669.html,Unknown,Unknown,Unknown,219998.0,140.0,1571.4,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ain-el-rihaneh-90m2-well-maintained-catch-view-calm-area-el-ID116724699.html,Unknown,Unknown,Unknown,75000.0,90.0,833.3,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ain-el-rihaneh-165m2-well-maintained-calm-area-view-el-ID116715394.html,Unknown,Unknown,Unknown,110000.0,165.0,666.7,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ballouneh-120m2-120m2-garden-view-pyt-facilities-unique-ga-ID116689908.html,Unknown,Unknown,Unknown,225000.0,120.0,1875.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/new-sheileh-200m2-duplex-panoramic-view-classy-area-el-ID116688464.html,Unknown,Unknown,Unknown,160000.0,200.0,800.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ballouneh-160m2-120m2-terrace-decorated-quiet-street-catch-to-ID116664852.html,Unknown,Unknown,Unknown,120000.0,160.0,750.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ballouneh-350m2-furnished-duplex-panoramic-view-catch-to-ID116653481.html,Unknown,Unknown,Unknown,260000.0,350.0,742.9,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/sheileh-250m2-20m2-terrace-sea-view-modern-el-ID116623481.html,Unknown,Unknown,Unknown,260000.0,250.0,1040.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/sheileh-180m2-luxury-sea-view-prime-location-el-ID116623429.html,Unknown,Unknown,Unknown,175000.0,180.0,972.2,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ballouneh-160m2-mountian-view-decorated-flat-private-street-to-ID116601258.html,Unknown,Unknown,Unknown,160000.0,160.0,1000.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ballouneh-200m2-prime-location-well-lighted-catch-to-ID116545539.html,Unknown,Unknown,Unknown,210000.0,200.0,1050.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/jeita-180m2-renovated-flat-panoramic-view-luxury-catch-elks-ID116327530.html,Unknown,Unknown,Unknown,165000.0,180.0,916.7,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ballouneh-200m2-180m2-terrace-duplex-panoramic-view-to-ID116235925.html,Unknown,Unknown,Unknown,270000.0,200.0,1350.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/jeita-460m2-350m2-terrace-villa-ultra-prime-location-luxuryto-ID116208751.html,Unknown,Unknown,Unknown,670000.0,460.0,1456.5,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/sheileh-175m2-180m2-garden-private-street-super-luxurious-ac-ID116128672.html,Unknown,Unknown,Unknown,255000.0,175.0,1457.1,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/sheileh-400m2-duplex-60m2-terrace-view-new-luxurious-el-ID116100643.html,Unknown,Unknown,Unknown,330000.0,400.0,825.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/sheileh-245m2-190m2-garden-private-entrance-provision-pool-ac-ID116062494.html,Unknown,Unknown,Unknown,390000.0,245.0,1591.8,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ballouneh-350m2-150m2-garden-super-luxurious-catch-my-ID116021064.html,Unknown,Unknown,Unknown,300000.0,350.0,857.1,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/sheileh-350m2-duplex-new-upgraded-impressive-view-wa-ID116017211.html,Unknown,Unknown,Unknown,350000.0,350.0,1000.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ballouneh-450m2-private-housebuilding-two-apartments-catch-my-ID115902115.html,Unknown,Unknown,Unknown,500000.0,450.0,1111.1,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ballouneh-400m2-250m2-terrace-duplex-generous-dimensions-ac-ID115868037.html,Unknown,Unknown,Unknown,390000.0,400.0,975.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/sheileh-170m2-new-panoramic-view-luxury-prime-location-to-ID115776227.html,Unknown,Unknown,Unknown,150000.0,170.0,882.4,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ballouneh-240m2-150m2-terrace-sea-view-upgraded-unique-propert-ID115717489.html,Unknown,Unknown,Unknown,340000.0,240.0,1416.7,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ballouneh-135m2-new-private-street-luxurious-ID115660896.html,Unknown,Unknown,Unknown,155000.0,135.0,1148.1,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ballouneh-1350m2-villa-excellent-condition-prime-location-uniqu-ID115638371.html,Unknown,Unknown,Unknown,1350000.0,1350.0,1000.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/sheileh-240m2-duplex-new-panoramic-view-prime-ID115625301.html,Unknown,Unknown,Unknown,250000.0,240.0,1041.7,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/sheileh-185m2-100m2-garden-super-luxury-unique-catch-ID115192166.html,Unknown,Unknown,Unknown,250000.0,185.0,1351.4,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/jeita-170m2-payment-facilities-brand-new-calm-area-ba-ID116420686.html,Unknown,Unknown,Unknown,238000.0,170.0,1400.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ain-el-rihaneh-215m2-open-view-well-maintained-high-end-to-ID116969633.html,Unknown,Unknown,Unknown,180000.0,215.0,837.2,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/3-master-beds-open-view-terrace-ain-saadeh-prime-as-324-ID116968291.html,Ain Saadeh,El Meten,El Meten,349000.0,270.0,1292.6,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ajaltoun-180m2-furnished-flat-quiet-street-to-ID116711111.html,Unknown,Unknown,Unknown,144000.0,180.0,800.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-hazmieh-cpmk215-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D8%AD%D8%A7%D8%B2%D9%85%D9%8A%D8%A9-ID116931266.html,Hazmieh,Baabda,Baabda,300000.0,151.0,1986.8,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/rwk637ca-exclusive-apartment-for-sale-in-sahel-alma-ID116853461.html,Unknown,Unknown,Unknown,425000.0,220.0,1931.8,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/golden-area-abdel-wahab-street-apartment-for-sale-ID115843621.html,Beirut,Unknown,Unknown,1700000.0,430.0,3953.5,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/%D8%B4%D9%82%D8%A9-306%D9%85-%D9%84%D9%84%D8%A8%D8%A8%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D8%AC%D9%86%D8%A7%D8%AD-ID117028203.html,Jnah,Beirut,Saifeh,775000.0,306.0,2532.7,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-rawche-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D8%B1%D9%88%D8%B4%D8%A9-cpbhs152-ID116976229.html,Rawche,Beirut,Ras Beyrouth,650000.0,200.0,3250.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-achrafieh-sioufi%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D8%A3%D8%B4%D8%B1%D9%81%D9%8A%D8%A9-%D8%A7%D9%84%D8%B3%D9%8A%D9%88%D9%81%D9%8A-ID117019828.html,Achrafieh,Beirut,Achrafieh,875000.0,350.0,2500.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-adma-210m2-high-end-full-sea-view%D8%A3%D8%AF%D9%85%D8%A7-ID116640664.html,Unknown,Unknown,Unknown,420000.0,210.0,2000.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-%7C-zouk-mikael-keserwan--ref%3A-%23yn302069-ID116925792.html,Unknown,Unknown,Unknown,132600.0,102.0,1300.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/jwar-baabdat-100m2-%7C-mountain-view-%7C-modern-flat-%7C-calm-area-%7C-tch-ID116923346.html,Baabdat,El Meten,El Meten,145000.0,100.0,1450.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-%7C-jeita-keserwan--ref%3A-%23yn302029-ID116910040.html,Unknown,Unknown,Unknown,120000.0,160.0,750.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/broumana-175m2-%7C-new-%7C-prime-location-%7C-mountain-view-%7C-tch-ID116907982.html,Broummana,El Meten,El Meten,290000.0,175.0,1657.1,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/baabdat-335m2-%7C-terrace-%7C-new-duplex-%7C-mountain-view-%7C-tch-ID116906418.html,Baabdat,El Meten,El Meten,350000.0,335.0,1044.8,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/duplex-for-sale-sarba-keserwan-ref-yn201042-ID116882022.html,Unknown,Unknown,Unknown,190000.0,165.0,1151.5,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/for-sale-in-adonis-ID116881268.html,Unknown,Unknown,Unknown,145000.0,165.0,878.8,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/baabdat-220m2-50m2-terrace-prime-location-mountian-view-tch-ID116820018.html,Baabdat,El Meten,El Meten,350000.0,220.0,1590.9,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/baabdat-160m2-new-building-amazing-view-prime-location-tch-ID116818103.html,Baabdat,El Meten,El Meten,220000.0,160.0,1375.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/baabdat-160m2-brand-new-mountain-view-quiet-street-tch-ID116818086.html,Baabdat,El Meten,El Meten,230000.0,160.0,1437.5,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/baabdat-130m2-220m2-terrace-calm-area-high-end-tch-ID116815612.html,Baabdat,El Meten,El Meten,280000.0,130.0,2153.8,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ballouneh-240m2-50m2-terrace-prime-location-private-entrance-wa-ID116836495.html,Unknown,Unknown,Unknown,299000.0,240.0,1245.8,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ballouneh-150m2-furnished-decorated-flat-private-street-to-ID116803244.html,Unknown,Unknown,Unknown,180000.0,150.0,1200.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/220-sqm-fully-furnished-apartment-in-mar-roukoz-ID117030946.html,Mar Roukoz,El Meten,El Meten,350000.0,220.0,1590.9,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/155-sqm-apartment-in-nabay-with-view-ID117030935.html,Nabay,El Meten,El Meten,145000.0,155.0,935.5,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/130-sqm-good-location-apartment-in-new-rawda-ID117006957.html,New Rawda,El Meten,El Meten,140000.0,130.0,1076.9,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/160-sqm-fully-furnished-apartment-in-bsalim-ID116985406.html,Bsalim,El Meten,El Meten,280000.0,160.0,1750.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/115-sqm-brand-new-apartment-in-bsalim-ID116985360.html,Bsalim,El Meten,El Meten,165000.0,115.0,1434.8,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/villa-for-sale-in-qanat-bakish-faqra-ID116983482.html,Qanat Beqish,El Meten,El Meten,1800000.0,400.0,4500.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/150-sqm-apartment-in-jal-el-dib-with-panoramic-sea-view-ID116941076.html,Jal El Dib,El Meten,El Meten,225000.0,150.0,1500.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/115-sqm-apartment-in-sin-el-fil-in-a-prime-location-ID116933142.html,Sin El Fil,El Meten,El Meten,115000.0,115.0,1000.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/125-sqm-fully-furnished-apartment-in-sabtieh-ID116931602.html,Sabtieh,El Meten,El Meten,120000.0,125.0,960.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/150-sqm-apartment-in-achrafieh-with-payment-facilities-ID116915909.html,Beirut,Unknown,Unknown,350000.0,150.0,2333.3,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/135-sqm-brand-new-apartment-in-mansourieh-ID116915879.html,Mansourieh,El Meten,El Meten,190000.0,135.0,1407.4,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/190-sqm-apartment-in-fanar-with-sea-%26-city-view-ID116915816.html,Fanar,El Meten,El Meten,188000.0,190.0,989.5,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-with-terrace-for-sale-in-rabieh-ID116909781.html,Rabieh,El Meten,El Meten,975000.0,360.0,2708.3,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/high-end-240sqm-apartment-with-garden-in-mar-chaaya-ID116894357.html,Mar Chaaya,El Meten,El Meten,400000.0,240.0,1666.7,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/jal-el-dib-decorated-3-bedrooms-apart-new-building-open-sea-view-ID116861822.html,Jal El Dib,El Meten,El Meten,204900.0,140.0,1463.6,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/200-sqm-fully-furnished-apartment-decorated-in-mansourieh-ID116847768.html,Mansourieh,El Meten,El Meten,210000.0,200.0,1050.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/112-sqm-brand-new-apartment-in-zalka-ID116838398.html,Zalka,El Meten,El Meten,190000.0,112.0,1696.4,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/bikfaya-apartment-for-sale-ID117033823.html,Bikfaya,El Meten,El Meten,215000.0,180.0,1194.4,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/%D8%B4%D9%82%D8%A9-306%D9%85-%D9%84%D9%84%D8%A8%D8%A8%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D8%AC%D9%86%D8%A7%D8%AD-ID117028203.html,Jnah,Beirut,Saifeh,775000.0,306.0,2532.7,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/gmk502jh-apartment-for-sale-in-achkout-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%B9%D8%B4%D9%82%D9%88%D8%AA-ID117023631.html,Unknown,Unknown,Unknown,150000.0,125.0,1200.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/zikrit-mazraat-yashouh-decorated-3-bedrooms-apart-new-building-ID116981536.html,Mazraat Yachouh,El Meten,El Meten,169000.0,140.0,1207.1,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/studio-for-sale-jbeil-blat-%D8%AC%D8%A8%D9%8A%D9%84-%D8%B4%D9%82%D9%82-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-rgks350-ID116991049.html,Blat,Jbeil,Jbeil,89000.0,60.0,1483.3,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-achrafieh-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D8%A3%D8%B4%D8%B1%D9%81%D9%8A%D8%A9-ID116982423.html,Beirut,Unknown,Unknown,490000.0,140.0,3500.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-horch-tabet-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%AD%D8%B1%D8%B4-%D8%AA%D8%A7%D8%A8%D8%AA-ID116497204.html,Horsh Tabet,El Meten,El Meten,500000.0,251.0,1992.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/prime-location-apartment-in-naccache-%D8%B4%D9%82%D8%A9-%D9%81%D9%8A-%D9%85%D9%88%D9%82%D8%B9-%D8%A7%D8%B3%D8%AA%D8%B1%D8%A7%D8%AA%D9%8A%D8%AC%D9%8A-%D9%81%D9%8A-%D9%86%D9%82%D8%A7%D8%B4-ID117038860.html,Naccache,El Meten,El Meten,175000.0,165.0,1060.6,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/furnished-apartment-for-sale-in-zalka-with-terrace-city-view%D8%B4%D9%82%D8%A9-%D9%85%D9%81%D8%B1%D9%88%D8%B4-ID116970364.html,Zalka,El Meten,El Meten,160000.0,153.0,1045.8,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/235-sqm-apartment-for-sale-in-rabweh-ID117022919.html,Rabweh,El Meten,El Meten,350000.0,235.0,1489.4,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ajaltoun-165m2-30m2-terrace-new-mountainv-view-super-luxurious-ID116810157.html,Unknown,Unknown,Unknown,235000.0,165.0,1424.2,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/jc-4502-apartment-for-sale-in-zouk-mikael-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%B2%D9%88%D9%82-%D9%85%D9%83%D8%A7%D9%8A%D9%84-ID117027818.html,Unknown,Unknown,Unknown,100000.0,115.0,869.6,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ballouneh-290m2-new-open-view-calm-area-catch-ped-ID116748215.html,Unknown,Unknown,Unknown,326000.0,290.0,1124.1,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/under-construction-properties-for-sale-20-down-payment-ID116392209.html,Rawche,Beirut,Ras Beyrouth,660000.0,135.0,4888.9,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/furnished-1-bedroom-apartment-for-sale-in-achrafieh-mqhd147-ID117021621.html,Beirut,Unknown,Unknown,280000.0,75.0,3733.3,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/three-bedroom-new-apartment-in-naccache-metn-ID116972523.html,Three Bedroom New Apartment in Naccache,El Meten,El Meten,209000.0,150.0,1393.3,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/130-sqm-new-apartment-in-bsalimqonnabet-broumana-terracegarden-ID116857745.html,Bsalim,El Meten,El Meten,225000.0,130.0,1730.8,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/lux-152m2-apartmentgardenterracesea-view-4sale-in-halat-%D8%AD%D8%A7%D9%84%D8%A7%D8%AA-ID116758468.html,Halat,Jbeil,Jbeil,199000.0,225.0,884.4,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/218m2-lux-apartmentterraceparking-4sale-in-adma-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A3%D8%AF%D9%85%D8%A7-ID116634085.html,Unknown,Unknown,Unknown,435000.0,218.0,1995.4,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/338m2-apartmentgardensea-view-4sale-in-beit-misk%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A8%D9%8A%D8%AA-%D9%85%D8%B3%D9%83-ID116622557.html,Beit Misk,El Meten,El Meten,850000.0,338.0,2514.8,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/4-bedroom-furnished-villagardenview-4sale-in-baabdat-%D9%81%D9%8A%D9%84%D8%A7-%D9%81%D9%8A-%D8%A8%D8%B9%D8%A8%D8%AF%D8%A7%D8%AA-ID116606586.html,Baabdat,El Meten,El Meten,1000000.0,758.0,1319.3,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/prime-location-payment-facilities-flatterrace-4-sale-in-baabdat-ID116561952.html,Baabdat,El Meten,El Meten,320000.0,250.0,1280.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/135m2-apartmentprime-location4sale-in-batroun-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D8%A8%D8%AA%D8%B1%D9%88%D9%86-ID116519761.html,Batroun Town,El Batroun,El Batroun,145000.0,135.0,1074.1,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/140-sqm-apartment-in-ain-alak-with-greenery-view-ID116148300.html,Ain Aalak,El Meten,El Meten,190000.0,140.0,1357.1,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/210-sqm-new-duplex-in-qornet-chehwan-metn-with-mountain-view-ID116744818.html,SQM New Duplex in Qornet Chehwan,El Meten,El Meten,200000.0,210.0,952.4,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/240-sqm-apartment-in-biyada-metn-with-a-breathtaking-sea-view-ID116537764.html,SQM Apartment in Biyada,El Meten,El Meten,500000.0,240.0,2083.3,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/225-sqm-prime-location-apartment-in-zalka-metn-with-city-view-ID116162966.html,SQM Prime Location Apartment in Zalka,El Meten,El Meten,290000.0,225.0,1288.9,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/345-sqm-brand-new-apartment-in-mtayleb-metn-terrace-ID116157340.html,SQM Brand New Apartment in Mtayleb,El Meten,El Meten,750000.0,345.0,2173.9,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/luxurious-apartment-in-biyada-for-sale-ID117034616.html,Biyada,El Meten,El Meten,499000.0,225.0,2217.8,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/gmb256sa-apartment-for-sale-in-batroun-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D8%A8%D8%AA%D8%B1%D9%88%D9%86-ID117032499.html,Other in Batroun,El Batroun,El Batroun,240000.0,128.0,1875.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-achrafieh-duplex-ID117021949.html,Beirut,Unknown,Unknown,1500000.0,300.0,5000.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-achrafieh-ID117021928.html,Beirut,Unknown,Unknown,840000.0,200.0,4200.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/villa-for-sale-in-beit-misk-%D9%81%D9%8A%D9%84%D8%A7-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A8%D9%8A%D8%AA-%D9%85%D8%B3%D9%83-ID116823036.html,Beit Misk,El Meten,El Meten,1500000.0,810.0,1851.9,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-achrafieh-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D8%A3%D8%B4%D8%B1%D9%81%D9%8A%D8%A9-ID116261165.html,Beirut,Unknown,Unknown,700000.0,290.0,2413.8,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/duplex-for-sale-in-broumana-%D8%AF%D9%88%D8%A8%D9%84%D9%83%D8%B3-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A8%D8%B1%D9%85%D8%A7%D9%86%D8%A7-ID116223424.html,Broummana,El Meten,El Meten,825000.0,600.0,1375.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/villa-for-sale-in-monteverde-3600k-%D9%81%D9%8A%D9%84%D8%A7-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D9%85%D9%86%D8%AA%D9%8A%D9%81%D8%B1%D8%AF%D9%8A-%D9%A3%D9%A6%D9%A0%D9%A0%D9%A0%D9%A0%D9%A0-ID115847474.html,Monteverde,El Meten,El Meten,3600000.0,2400.0,1500.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-aamchit-ID116994062.html,Aamchit,Jbeil,Jbeil,115000.0,150.0,766.7,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/jc-4431-apartment-for-sale-in-ain-rihaneh-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%B9%D9%8A%D9%86-%D8%A7%D9%84%D8%B1%D9%8A%D8%AD%D8%A7%D9%86%D8%A9-ID116590391.html,Unknown,Unknown,Unknown,110000.0,115.0,956.5,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/maten-elissar-new-building-apartment-for-sale-ID117040902.html,Elissar,El Meten,El Meten,195000.0,135.0,1444.4,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/jc-4493-apartment-for-sale-in-antelias-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%86%D8%B7%D9%84%D9%8A%D8%A7%D8%B3-ID116982516.html,Antelias,El Meten,El Meten,115000.0,120.0,958.3,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/jc-4455-apartment-for-sale-in-zouk-mikael-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%B2%D9%88%D9%82-%D9%85%D9%83%D8%A7%D9%8A%D9%84-ID116731488.html,Unknown,Unknown,Unknown,110000.0,140.0,785.7,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/jc-4444-apartment-for-sale-in-adonis%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A3%D8%AF%D9%88%D9%86%D9%8A%D8%B3-ID116665904.html,Unknown,Unknown,Unknown,125000.0,160.0,781.2,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/blat-jbeil-apartment-for-sale-ID117034600.html,Blat,Jbeil,Jbeil,169000.0,160.0,1056.2,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-jdeideh-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-ID117021933.html,Jdaide,El Meten,El Meten,165000.0,130.0,1269.2,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-achrafieh-ID117021911.html,Beirut,Unknown,Unknown,390000.0,100.0,3900.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-beit-el-chaar-with-terrace-cpta82-ID116816166.html,Beit El Chaar,El Meten,El Meten,135000.0,157.0,859.9,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-hazmieh-%E2%80%93-cpch38-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D8%AD%D8%A7%D8%B2%D9%85%D9%8A%D8%A9-ID116928396.html,Hazmieh,Baabda,Baabda,500000.0,220.0,2272.7,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/high-end-apartment-for-sale-in-monteverde-cpga138-ID116812736.html,Monteverde,El Meten,El Meten,450000.0,180.0,2500.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/sheileh-210m2-120m2-rooftop-furnished-upgraded-view-ba-ID116346238.html,Unknown,Unknown,Unknown,260000.0,210.0,1238.1,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ballouneh-320m2-duplex-new-panoramic-view-unique-property-ac-ID116233677.html,Unknown,Unknown,Unknown,325000.0,320.0,1015.6,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/rabwe-220-sqm-150-sqm-garden-fully-decorated-and-semi-furnished-ID116975258.html,Rabweh,El Meten,El Meten,385000.0,220.0,1750.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/modern-gem-villa-for-sale-in-baabdat-with-an-amazing-garden-ID117037577.html,Baabdat,El Meten,El Meten,1900000.0,1200.0,1583.3,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/new-building-in-achrafieh-prime-95sq-2-bedrooms-acit-1115-ID116790608.html,Beirut,Unknown,Unknown,320000.0,95.0,3368.4,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/sheileh-170m2-60m2-garden-designers-signature-private-street-ID116844050.html,Unknown,Unknown,Unknown,300000.0,170.0,1764.7,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ajaltoun-205m2-duplex-upgraded-astonishing-view-luxurious-ID114363875.html,Unknown,Unknown,Unknown,150000.0,200.0,750.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/%D8%B4%D9%82%D8%A9-%D9%85%D9%85%D9%8A%D8%B2%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D9%83%D9%88%D8%B1%D9%86%D9%8A%D8%B4-%D8%A7%D9%84%D9%85%D8%B2%D8%B1%D8%B9%D8%A9-%D8%AC%D9%87%D8%A9-%D8%A7%D9%84%D8%A3%D9%88%D9%86%D9%8A%D8%B3%D9%83%D9%88-ID117028059.html,Mazraa,Beirut,Mazraa,430000.0,220.0,1954.5,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/triplex-for-sale-in-awkar-%D8%AA%D8%B1%D9%8A%D8%A8%D9%84%D9%83%D8%B3-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%B9%D9%88%D9%83%D8%B1-ID117040887.html,Awkar,El Meten,El Meten,435000.0,300.0,1450.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/duplex-for-sale-in-kfarhbab-420m2-sea-view-20m2-terrace-550-000-cash-ID116941302.html,Unknown,Unknown,Unknown,550000.0,420.0,1309.5,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-kfarhbab-210m280m2-terrace-high-end%D9%83%D9%81%D8%B1%D8%AD%D8%A8%D8%A7%D8%A8-ID116714808.html,Unknown,Unknown,Unknown,309000.0,210.0,1471.4,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-sahel-alma-200m2-sea-view%D8%B3%D8%A7%D8%AD%D9%84-%D8%B9%D9%84%D9%85%D8%A7-ID116688664.html,Unknown,Unknown,Unknown,200000.0,200.0,1000.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-achrafieh-ID117021896.html,Beirut,Unknown,Unknown,800000.0,245.0,3265.3,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-zouk-mosbeh-125m-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%B0%D9%88%D9%82-%D9%85%D8%B5%D8%A8%D8%AD-ID116944237.html,Unknown,Unknown,Unknown,140000.0,125.0,1120.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-qortada-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D9%82%D8%B1%D8%B7%D8%A7%D8%B6%D9%87-ID116942854.html,Zandouka,El Meten,El Meten,170000.0,250.0,680.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-achrafieh-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D8%A3%D8%B4%D8%B1%D9%81%D9%8A%D8%A9-ID116885989.html,Beirut,Unknown,Unknown,1400000.0,385.0,3636.4,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-in-zalka-240m-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D8%B2%D9%84%D9%82%D8%A7-%D9%A2%D9%A4%D9%A0-%D9%85%D8%AA%D8%B1-ID116822383.html,Zalka,El Meten,El Meten,310000.0,240.0,1291.7,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-sahel-alma-230-%D8%B4%D9%82%D8%A9-%D8%B3%D8%A7%D8%AD%D9%84-%D8%B9%D9%84%D9%85%D8%A7-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%A2%D9%A3%D9%A0%D9%85%D8%AA%D8%B1-ID116791163.html,Unknown,Unknown,Unknown,400000.0,230.0,1739.1,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/375m2-apartmentterrace-4sale-in-bsalim-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A8%D8%B5%D8%A7%D9%84%D9%8A%D9%85-ID116766825.html,Bsalim,El Meten,El Meten,580000.0,415.0,1397.6,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/3br-apartment-for-sale-installments-blat-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-pls-26404b5-ID116734843.html,Blat,Jbeil,Jbeil,170000.0,124.0,1371.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-in-blat-for-sale-terrace-70sqm-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-pls-26404b2-ID116734833.html,Blat,Jbeil,Jbeil,142000.0,95.0,1494.7,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/luxury-villa-in-mechmech-jbeil-sale-%D9%81%D9%8A%D9%84%D8%A7-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-pls-26387c2-ID116634796.html,Mechmech,Jbeil,Jbeil,164000.0,145.0,1131.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/modern-twin-house-for-sale-mechmech-%D9%81%D9%8A%D9%84%D8%A7-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-pls-26387a3-ID116634756.html,Mechmech,Jbeil,Jbeil,131000.0,122.0,1073.8,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/under-construction-villa-for-sale-mechmech-%D9%81%D9%8A%D9%84%D8%A7-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-pls26387a1-ID116634725.html,Mechmech,Jbeil,Jbeil,127000.0,120.0,1058.3,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/jbeil-2br-new-apartment-sale-%D8%AC%D8%A8%D9%8A%D9%84-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-pls-2634710-ID116586520.html,Breij,Jbeil,Jbeil,105000.0,100.0,1050.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-breij-installments-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-pls-263477-ID116586513.html,Breij,Jbeil,Jbeil,95000.0,91.0,1044.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/under-construction-apartment-breij-sale-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-pls-263475-ID116586498.html,Breij,Jbeil,Jbeil,84000.0,76.0,1105.3,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-breij-payment-facility-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-pls-263474-ID116586489.html,Breij,Jbeil,Jbeil,100000.0,96.0,1041.7,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/2-br-apartment-for-sale-breij-jbeil-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-pls-263473-ID116586485.html,Breij,Jbeil,Jbeil,85000.0,77.0,1103.9,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/155m2-apartmentpoolview-4-sale-in-bsalim-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A8%D8%B5%D8%A7%D9%84%D9%8A%D9%85-ID116430302.html,Bsalim,El Meten,El Meten,217000.0,155.0,1400.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/a-270-m2-gf-apartment200-m2-gardenopen-view-for-sale-in-bsalim-ID116123062.html,Bsalim,El Meten,El Meten,660000.0,337.0,1958.5,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-ain-saade-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A7%D8%AC%D8%A7%D8%B1-%D9%81%D9%8A-%D8%B9%D9%8A%D9%86-%D8%B3%D8%B9%D8%A7%D8%AF%D8%A9-ID116994017.html,Ain Saadeh,El Meten,El Meten,1400000.0,685.0,2043.8,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-dbayeh-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%B6%D8%A8%D9%8A%D9%87-ID116921677.html,Dbaye,El Meten,El Meten,170000.0,200.0,850.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-in-amchit-for-sale-brand-new-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-pls-26579-1-ID117011564.html,Aamchit,Jbeil,Jbeil,100000.0,117.0,854.7,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-achrafieh-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D8%A3%D8%B4%D8%B1%D9%81%D9%8A%D8%A9-ID116999770.html,Beirut,Unknown,Unknown,700000.0,277.0,2527.1,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/villa-for-sale-%D9%81%D9%8A%D9%84%D8%A7-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-ID116942174.html,Other in Batroun,El Batroun,El Batroun,375000.0,480.0,781.2,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/2-br-apartment-in-halat-%7C-sale-%7C-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%7C-%D8%AC%D8%A8%D9%8A%D9%84-%7C-pls-26538%2F1-ID116924193.html,Halat,Jbeil,Jbeil,125000.0,90.0,1388.9,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-rayfoun-cpes257-ID116783356.html,Unknown,Unknown,Unknown,240000.0,200.0,1200.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-blat-payment-plan-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-pls-26348b5-ID116667830.html,Blat,Jbeil,Jbeil,190000.0,195.0,974.4,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-3br-for-sale-in-blat-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D8%AC%D8%A8%D9%8A%D9%84-pls-26348b2-ID116667820.html,Blat,Jbeil,Jbeil,186000.0,150.0,1240.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/new-apartment-open-view-blat-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-pls-26348a5-ID116667807.html,Blat,Jbeil,Jbeil,98000.0,98.0,1000.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-bouar-panoramic-view-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-pls-26410b1-ID116660973.html,Unknown,Unknown,Unknown,145000.0,130.0,1115.4,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/3-master-bedrooms-duplex-mtayleb-330sq-mt-169-ID116838026.html,Mtayleb,El Meten,El Meten,350000.0,330.0,1060.6,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-sin-el-fil-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%B3%D9%86-%D8%A7%D9%84%D9%81%D9%8A%D9%84-ID117027374.html,Sin El Fil,El Meten,El Meten,100000.0,130.0,769.2,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-ain-el-remmaneh-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%B9%D9%8A%D9%86-%D8%A7%D9%84%D8%B1%D9%85%D8%A7%D9%86%D8%A9-ID116629201.html,Ain El Remmaneh,Beirut,Beirut-Other,98000.0,115.0,852.2,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-dbayeh-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D9%85%D9%86%D8%B7%D9%82%D8%A9-%D8%B6%D8%A8%D9%8A%D8%A9-ID116615244.html,Dbaye,El Meten,El Meten,275000.0,175.0,1571.4,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/super-catch-apt-in-tallet-el-khayat-prime-250sq-3-beds-bt-676-ID116621964.html,Tallet el Khayat,Beirut,Moussaytbeh,390000.0,250.0,1560.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/under-construction-apartments-for-sale-in-rmeil-350-000-ID117011913.html,Rmeil,Beirut,Remeil,350000.0,140.0,2500.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/zikrit-decorated-3-bedrooms-apartment-new-building-3-balconies-ID116981532.html,Zakrit,El Meten,El Meten,169000.0,145.0,1165.5,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/under-construction-properties-for-sale-20-down-payment-ID116392209.html,Rawche,Beirut,Ras Beyrouth,660000.0,135.0,4888.9,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/a-182-m2-apartment-garden-4-sale-in-adlieh-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D8%B9%D8%AF%D9%84%D9%8A%D8%A9-ID116954515.html,Adlieh,Beirut,Achrafieh,375000.0,182.0,2060.4,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-mtayleb-amazing-view-new-ID117023923.html,Mtayleb,El Meten,El Meten,750000.0,250.0,3000.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/traditional-stone-houses-for-sale-ID117033102.html,Other in Batroun,El Batroun,El Batroun,144000.0,43.0,3348.8,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-in-jbeil-for-sale-sea-view-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-pls-260633-ID115982765.html,Jbeil Town,Jbeil,Jbeil,115000.0,100.0,1150.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-ras-el-nabaa-sodeko-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D8%B1%D8%A7%D8%B3-%D8%A7%D9%84%D9%86%D8%A8%D8%B9-%D8%B3%D9%88%D8%AF%D9%8A%D9%83%D9%88-ID117021131.html,Ras Al Nabaa,Beirut,Mazraa,230000.0,160.0,1437.5,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/khenchara-luxurious-high-end-villa-for-sale-prime-location-ID116972420.html,Khenchara,El Meten,El Meten,2200000.0,1100.0,2000.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-batroun-cpjgn33-ID116830359.html,Batroun Town,El Batroun,El Batroun,140000.0,140.0,1000.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-the-heart-of-batroun-cpjgn30-ID116830329.html,Batroun Town,El Batroun,El Batroun,200000.0,235.0,851.1,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/villa-i-plateau-i-kfardebian-i-garden-i-view-i-faraya-ID116256824.html,Unknown,Unknown,Unknown,890000.0,350.0,2542.9,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/high-end-apartment-for-sale-in-blat-open-seaview-ID117032466.html,Blat,Jbeil,Jbeil,270000.0,175.0,1542.9,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/catch-apartement-for-sale-in-feytroun-ID117021649.html,Unknown,Unknown,Unknown,140000.0,224.0,625.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-halat-cpes263-ID116839368.html,Halat,Jbeil,Jbeil,260000.0,234.0,1111.1,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-mseitbeh-ID116671835.html,Msaytbeh,Beirut,Moussaytbeh,380000.0,257.0,1478.6,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/lux-furnished-apartment-4-sale-in-sodeco-beirut-%D8%A7%D9%84%D8%A3%D8%B4%D8%B1%D9%81%D9%8A%D8%A9-%D8%B3%D9%88%D8%AF%D9%8A%D9%83%D9%88-ID116380062.html,Sodeco,Beirut,Achrafieh,1100000.0,335.0,3283.6,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/beautiful-apartment-for-sale-in-antelias-ID116867408.html,Antelias,El Meten,El Meten,250000.0,200.0,1250.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/brand-new-apartment-for-sale-in-ain-saadeh-ID116830315.html,Ain Saadeh,El Meten,El Meten,250000.0,140.0,1785.7,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/brand-new-apartment-for-sale-in-jouret-al-ballout-ID116867586.html,Jouret Al Ballout,El Meten,El Meten,200000.0,160.0,1250.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-basta-al-tahta-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A8%D8%B3%D8%B7%D8%A7-%D8%A7%D9%84%D8%AA%D8%AD%D8%AA%D8%A7-ID117027469.html,Basta,Beirut,Beirut-Other,220000.0,160.0,1375.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/130-sqm-apartment-in-bikfaya-zeghrine-sea-mountain-view-ID117002412.html,Bikfaya,El Meten,El Meten,125000.0,130.0,961.5,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-blat-jbeil-ID116992134.html,Blat,Jbeil,Jbeil,98000.0,140.0,700.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/%D8%B4%D9%82%D8%A9-%D8%A8%D8%A7%D8%B7%D9%84%D8%A7%D9%84%D8%A9-%D8%B1%D8%A7%D8%A6%D8%B9%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%AF%D8%B1%D8%A8-%D8%A7%D9%84%D8%B3%D9%8A%D9%85-apartment-for-sale-in-darb-sim-ID116980052.html,Unknown,Unknown,Unknown,130000.0,160.0,812.5,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-naccache-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D9%86%D9%82%D8%A7%D8%B4-ID116942719.html,Naccache,El Meten,El Meten,208000.0,145.0,1434.5,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/150-sqm-apartment-for-sale-in-zouk-mosbeh-adonis-ID117038135.html,Unknown,Unknown,Unknown,135000.0,150.0,900.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/3-bedrooms-apartment-for-sale-located-in-ras-al-nabaa-beirut-ID117013255.html,located in Ras Al Nabaa,Beirut,Mazraa,239000.0,160.0,1493.8,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/3-bedrooms-apartment-for-sale-located-in-baabda-town-baabda-ID116995795.html,located in Baabda Town,Baabda,Baabda,475000.0,280.0,1696.4,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/3-bedrooms-apartment-for-sale-located-in-barbour-beirut-ID116964467.html,located in Barbour,Beirut,Mazraa,365000.0,180.0,2027.8,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/3-bedrooms-duplex-for-sale-located-in-achrafieh-beirut-ID116956890.html,located in Achrafieh,Beirut,Achrafieh,1190000.0,340.0,3500.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/3-bedroom-duplex-for-sale-in-blaybel-baabda-ID116950700.html,bedroom duplex for sale in Blaybel,Baabda,Baabda,180000.0,177.0,1016.9,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-jal-el-dib-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%AC%D9%84-%D8%A7%D9%84%D8%AF%D9%8A%D8%A8-ID116943180.html,Jal El Dib,El Meten,El Meten,395000.0,220.0,1795.5,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/spacious-3-bedroom-apartment-for-sale-in-sahel-alma-425-000-ID116938065.html,Unknown,Unknown,Unknown,425000.0,285.0,1491.2,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-with-terrace-for-sale-in-dbaye-metn-ID116844900.html,apartment with terrace for sale in Dbaye,El Meten,El Meten,477000.0,226.0,2110.6,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/duplex-for-sale-monteverde-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%85%D9%88%D9%86%D8%AA%D9%8A%D9%81%D8%B1%D8%AF%D9%8A-ID117021676.html,Monteverde,El Meten,El Meten,1270000.0,433.0,2933.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-awkar-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D9%85%D9%86%D8%B7%D9%82%D8%A9-%D8%B9%D9%88%D9%83%D8%B1-cpta125-ID116958487.html,Awkar,El Meten,El Meten,250000.0,290.0,862.1,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/rwb300ca-small-fully-furnished-stand-alone-for-sale-in-amchit-jbeil-ID116601480.html,Aamchit,Jbeil,Jbeil,280000.0,280.0,1000.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D8%B4%D9%82%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%A7%D8%B4%D8%B1%D9%81%D9%8A%D8%A9-apartment-for-sale-in-achrafieh-ID117005885.html,Beirut,Unknown,Unknown,400000.0,200.0,2000.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/under-construction-apartment-for-sale-in-kfaraabida-%D9%83%D9%81%D8%B1%D8%B9%D8%A8%D9%8A%D8%AF%D8%A7cpjak06-ID117006666.html,Kfar Abida,El Batroun,El Batroun,199000.0,133.0,1496.2,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-hazmiyeh-new-mar-takla-gv-ID116945889.html,Hazmieh,Baabda,Baabda,253000.0,200.0,1265.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-jeita-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%AC%D8%B9%D9%8A%D8%AA%D8%A7-ID116325534.html,Unknown,Unknown,Unknown,165000.0,180.0,916.7,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-uc-for-sale-in-bsalim---%D8%B4%D9%82%D9%82-%D9%82%D9%8A%D8%AF-%D8%A7%D9%84%D8%A5%D9%86%D8%B4%D8%A7%D8%A1-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A8%D8%B5%D8%A7%D9%84%D9%8A%D9%85-ID116904952.html,Bsalim,El Meten,El Meten,153600.0,96.0,1600.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/broummana-duplex-apartment-260-sqm-plus-250-sqm-terrace-garden-6397-ID116157754.html,Broummana,El Meten,El Meten,450000.0,260.0,1730.8,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/hot-deal-apt-for-sale-in-mar-elias-175sq-3-beds-ma-168-m-g-ID117022691.html,Mar Elias,Beirut,Moussaytbeh,225000.0,175.0,1285.7,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-achrafieh-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D8%A3%D8%B4%D8%B1%D9%81%D9%8A%D8%A9-ID116867320.html,Beirut,Unknown,Unknown,699000.0,200.0,3495.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-ain-el-rihane-ID116864960.html,Unknown,Unknown,Unknown,135000.0,160.0,843.8,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-achrafieh-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D8%A3%D8%B4%D8%B1%D9%81%D9%8A%D8%A9-ID116825786.html,Beirut,Unknown,Unknown,2600000.0,480.0,5416.7,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/high-end-apartment-for-sale-in-achrafieh-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D8%A3%D8%B4%D8%B1%D9%81%D9%8A%D8%A9-ID116763800.html,Beirut,Unknown,Unknown,820000.0,176.0,4659.1,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-dekwaneh-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D8%AF%D9%83%D9%88%D8%A7%D9%86%D8%A9-ID116756665.html,Dekwaneh,El Meten,El Meten,200000.0,250.0,800.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-acharfieh-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D8%A3%D8%B4%D8%B1%D9%81%D9%8A%D8%A9-ID116737915.html,Beirut,Unknown,Unknown,660000.0,200.0,3300.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-achrafieh-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D8%A3%D8%B4%D8%B1%D9%81%D9%8A%D8%A9-ID116687462.html,Beirut,Unknown,Unknown,320000.0,85.0,3764.7,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/duplex-for-sale-in-achrafieh-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D8%A3%D8%B4%D8%B1%D9%81%D9%8A%D8%A9-ID116628343.html,Beirut,Unknown,Unknown,699000.0,260.0,2688.5,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/zandouka-brand-new-high-end-2-bedrooms-apt-w-backyard-garden-view-ID116494710.html,Zandouka,El Meten,El Meten,155000.0,170.0,911.8,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/2-years-payment-plan-lofts-for-sale-in-achrafieh-ID116474386.html,Beirut,Unknown,Unknown,430000.0,127.0,3385.8,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/terrace-duplex-for-sale-in-achrafieh-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D8%A3%D8%B4%D8%B1%D9%81%D9%8A%D8%A9-ID116346529.html,Beirut,Unknown,Unknown,1050000.0,335.0,3134.3,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-achrafieh-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D8%A3%D8%B4%D8%B1%D9%81%D9%8A%D8%A9-ID116253412.html,Beirut,Unknown,Unknown,560000.0,174.0,3218.4,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-achrafieh-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D8%A3%D8%B4%D8%B1%D9%81%D9%8A%D8%A9-ID115314798.html,Beirut,Unknown,Unknown,549000.0,175.0,3137.1,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/villa-for-sale-near-hammana-%D9%81%D9%8A%D9%84%D8%A7-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%AD%D9%85%D8%A7%D9%86%D8%A7-ID112332720.html,Qornayel,Baabda,Baabda,1200000.0,500.0,2400.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/rwk468gz-villa-for-sale-in-hrajel-ID116817812.html,Unknown,Unknown,Unknown,550000.0,520.0,1057.7,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/rwk386gz-detached-villa-for-sale-in-faqra-ID116175323.html,Unknown,Unknown,Unknown,750000.0,370.0,2027.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/rwk357gz-villa-for-sale-in-plateaux-du-mzaar-%D9%81%D9%8A%D9%84%D8%A7-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-ID116039970.html,Unknown,Unknown,Unknown,1300000.0,326.0,3987.7,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/villa-for-sale-in-sehaileh-850-sqm-ID115443667.html,Unknown,Unknown,Unknown,800000.0,850.0,941.2,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-bchamoun-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A8%D8%B4%D8%A7%D9%85%D9%88%D9%86-ID117025465.html,Bchamoun,Aley,Aley,85000.0,120.0,708.3,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/200-sqm-duplex-for-sale-in-roumieh-ID117025092.html,Roumieh,El Meten,El Meten,310000.0,200.0,1550.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/beautiful-140sqm-apartment-in-mar-chaaya-for-sale-ID116985783.html,Mar Chaaya,El Meten,El Meten,229000.0,140.0,1635.7,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ciel-et-jardin-towers-achrafieh-180-m2-for-sale-ID116785562.html,Beirut,Unknown,Unknown,600000.0,180.0,3333.3,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ciet-et-jardin-towers-achrafieh-170-m2-for-sale-ID116780476.html,Beirut,Unknown,Unknown,476000.0,170.0,2800.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-hbous-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%AD%D8%A8%D9%88%D8%B3-ID116637448.html,Ain Aar,El Meten,El Meten,350000.0,233.0,1502.1,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-bellevue-beit-el-chaar-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A8%D9%8A%D8%AA-%D8%A7%D9%84%D8%B4%D8%B9%D8%A7%D8%B1-ID116555126.html,Beit El Chaar,El Meten,El Meten,210000.0,190.0,1105.3,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/rwk157rh-apartment-for-sale-in-adonis-ID116891902.html,Unknown,Unknown,Unknown,155000.0,170.0,911.8,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/rwk150rh-well-maintained-apartment-for-sale-in-ghosta-with-sea-view-ID116870074.html,Unknown,Unknown,Unknown,168000.0,176.0,954.5,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/rwk140rh-duplex-for-sale-in-zouk-mosbeh-with-sea-view-ID116851019.html,Unknown,Unknown,Unknown,250000.0,350.0,714.3,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ballouneh-135m2-rooftop-90m2-terrace-new-astonishing-view-ID114852347.html,Unknown,Unknown,Unknown,150000.0,135.0,1111.1,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-jdeideh-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-ID116822470.html,Jdaide,El Meten,El Meten,165000.0,220.0,750.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-achrafieh-beirut-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D8%A7%D9%84%D8%A7%D8%B4%D8%B1%D9%81%D9%8A%D8%A9-ID117026382.html,Saydeh,Beirut,Beirut-Other,350000.0,106.0,3301.9,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-hazmieh-martakla-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D8%AD%D8%A7%D8%B2%D9%85%D9%8A%D8%A9-%D9%85%D8%A7%D8%B1%D8%AA%D9%82%D9%84%D8%A7-ID116665152.html,Hazmieh,Baabda,Baabda,400000.0,190.0,2105.3,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/sheileh-215m2-200m2-rooftop-terrace-astonishing-view-unique-ac-ID116128692.html,Unknown,Unknown,Unknown,310000.0,215.0,1441.9,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-batroun-with-view-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D8%A8%D8%AA%D8%B1%D9%88%D9%86-cpjgn84-ID117017775.html,Batroun Town,El Batroun,El Batroun,120000.0,85.0,1411.8,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartments-for-sale-hazmieh-baabda-%D8%B4%D9%82%D9%82-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D8%AD%D8%A7%D8%B2%D9%85%D9%8A%D8%A9-%D8%A8%D8%B9%D8%A8%D8%AF%D8%A7-ID117021403.html,Hazmieh,Baabda,Baabda,400000.0,175.0,2285.7,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-ansarieh-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A3%D9%86%D8%B5%D8%A7%D8%B1%D9%8A%D8%A9-ID116955408.html,Unknown,Unknown,Unknown,150000.0,145.0,1034.5,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-aitat-aley-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%B9%D9%8A%D8%AA%D8%A7%D8%AA-ID116756995.html,Apartment for sale in Aitat,Aley,Aley,135000.0,170.0,794.1,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/brand-new-apartment-for-sale-in-dbayeh-sea-view%D8%B4%D9%82%D8%A9-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D8%AA%D9%85%D8%A7%D9%85%D8%A7-ID116973659.html,Dbaye,El Meten,El Meten,250000.0,170.0,1470.6,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ajaltoun-440m2-villa-core-shell-panoramic-view-prime-area-ty-ID116760671.html,Unknown,Unknown,Unknown,375000.0,440.0,852.3,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/rwk139rh-apartment-for-sale-in-jeita-with-mountain-and-sea-view-ID116851015.html,Unknown,Unknown,Unknown,210000.0,300.0,700.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/rwk138rh-apartment-for-sale-in-zouk-mosbeh-with-terrace-ID116851006.html,Unknown,Unknown,Unknown,160000.0,217.0,737.3,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/rwk124rh-maintained-apartment-for-sale-in-adonis-ID116798526.html,Unknown,Unknown,Unknown,135000.0,170.0,794.1,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/rwk121rh-brand-new-maintained-apartment-for-sale-in-ballouneh-ID116793038.html,Unknown,Unknown,Unknown,180000.0,150.0,1200.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-moawad-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D9%85%D8%B9%D9%88%D8%B6-%D9%83%D9%86%D9%8A%D8%B3%D8%A9-%D9%85%D8%A7%D8%B1-%D9%85%D8%AE%D8%A7%D9%8A%D9%84-ID117040630.html,Medawar,Beirut,Medawar,220000.0,160.0,1375.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/new-apartments-for-sale-in-dekweneh-ID117026661.html,Dekwaneh,El Meten,El Meten,225000.0,120.0,1875.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-dik-el-mehdi-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%AF%D9%8A%D9%83-%D8%A7%D9%84%D9%85%D8%AD%D8%AF%D9%8A-ID117026289.html,Dik El Mehdi,El Meten,El Meten,250000.0,216.0,1157.4,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-with-pool-in-halat-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%85%D8%B9-%D9%85%D8%B3%D8%A8%D8%AD-%D9%81%D9%8A-%D8%AD%D8%A7%D9%84%D8%A7%D8%AA-ID116971709.html,Halat,Jbeil,Jbeil,150000.0,110.0,1363.6,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-jal-el-dib-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%AC%D9%84-%D8%A7%D9%84%D8%AF%D9%8A%D8%A8-ID116803098.html,Jal El Dib,El Meten,El Meten,350000.0,146.0,2397.3,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/furnished-apartment-for-sale-in-elissar-%D8%B4%D9%82%D8%A9-%D9%85%D9%81%D8%B1%D9%88%D8%B4%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D9%8A%D8%B3%D8%A7%D8%B1-ID116756501.html,Elissar,El Meten,El Meten,330000.0,220.0,1500.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-bhannes-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A8%D8%AD%D9%86%D8%B3-ID117040735.html,Dahr El Sawan,El Meten,El Meten,150000.0,155.0,967.7,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/rwk129dz-luxury-duplex-for-sale-in-achkout-ID116754131.html,Unknown,Unknown,Unknown,690000.0,700.0,985.7,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/premium-residences-in-livadia-ID117039522.html,International,Unknown,Unknown,210000.0,90.0,2333.3,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-sioufi-achrafieh-very-attractive-price-ID117032250.html,Sioufi,Beirut,Achrafieh,240000.0,157.0,1528.7,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-achrafieh-an-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D8%A7%D8%B4%D8%B1%D9%81%D9%8A%D8%A9-ID117026645.html,Rmeil,Beirut,Remeil,300000.0,220.0,1363.6,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-unesco-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D8%A3%D9%88%D9%86%D8%B3%D9%83%D9%88-ID117014999.html,Unesco,Beirut,Beirut-Other,800000.0,210.0,3809.5,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/baabdat-catchy-120m%C2%B2-apart-prime-investment-green-surroundings-ID117006398.html,Baabdat,El Meten,El Meten,107900.0,120.0,899.2,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-monteverde-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%88%D9%86%D8%AA%D9%8A%D9%81%D9%8A%D8%B1%D8%AF%D9%8A-ID116992799.html,Monteverde,El Meten,El Meten,450000.0,180.0,2500.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/rwk149dz-duplex-for-sale-in-faitroun-ID116991861.html,Unknown,Unknown,Unknown,225000.0,110.0,2045.5,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-mazraat-yachouh-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D9%85%D8%B2%D8%B1%D8%B9%D8%A9-%D9%8A%D8%B4%D9%88%D8%B9-ID116954729.html,Mazraat Yachouh,El Meten,El Meten,320000.0,300.0,1066.7,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/rwk148dz-core-and-shell-apartment-for-sale-in-faitroun-ID116943792.html,Unknown,Unknown,Unknown,159000.0,106.0,1500.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-ras-el-nabeh-%7C-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%B1%D8%A3%D8%B3-%D8%A7%D9%84%D9%86%D8%A8%D8%B9-ID116931710.html,Ras Al Nabaa,Beirut,Mazraa,1200000.0,470.0,2553.2,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-bsalim-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A8%D8%B5%D8%A7%D9%84%D9%8A%D9%85-ID116849794.html,Bsalim,El Meten,El Meten,260000.0,148.0,1756.8,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/brand-new-duplex-for-sale-in-mar-chaaya-ID116816530.html,Mar Chaaya,El Meten,El Meten,150000.0,190.0,789.5,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-terrace-for-sale-in-sahel-alma-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%B3%D8%A7%D8%AD%D9%84-%D8%B9%D9%84%D9%85%D8%A7-ID116803878.html,Unknown,Unknown,Unknown,120000.0,153.0,784.3,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/rwk137dz-duplex-for-sale-in-beqaatet-achqout-ID116764150.html,Unknown,Unknown,Unknown,390000.0,440.0,886.4,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-broummana-mar-chaaya%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A8%D8%B1%D9%85%D8%A7%D9%86%D8%A7-%D9%85%D8%A7%D8%B1-%D8%B4%D8%B9%D9%8A%D8%A7-ID116709936.html,Mar Chaaya,El Meten,El Meten,265000.0,250.0,1060.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-kehaleh-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D9%83%D8%AD%D8%A7%D9%84%D8%A9-ID117040719.html,Kahaleh,Aley,Aley,125000.0,135.0,925.9,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/rwk139zn-apartment-for-sale-in-adma-with-terrace-ID116991855.html,Unknown,Unknown,Unknown,435000.0,290.0,1500.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/rwk138zn-apartment-for-sale-in-adma-with-a-private-garden-ID116991853.html,Unknown,Unknown,Unknown,420000.0,211.0,1990.5,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/luxury-furnished-apartment-for-sale-in-ain-saade-sea-mountain-views-ID117018830.html,Ain Saadeh,El Meten,El Meten,420000.0,210.0,2000.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/panoramic-sea-view-apartment-for-sale-in-sahel-aalma-ID117037345.html,Unknown,Unknown,Unknown,300000.0,285.0,1052.6,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/sheileh-120m2-80m2-terrace-brand-new-open-view-luxury-to-ID116733480.html,Unknown,Unknown,Unknown,124000.0,120.0,1033.3,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartments-for-sale-zalka-rh302183-ID117024782.html,Zalka,El Meten,El Meten,135000.0,103.0,1310.7,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-achrafieh-990-000-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D8%A3%D8%B4%D8%B1%D9%81%D9%8A%D8%A9-ID116943965.html,Beirut,Unknown,Unknown,990000.0,280.0,3535.7,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/jeita-370m2-duplex-designers-signature-impressive-view-catch-ID116308255.html,Unknown,Unknown,Unknown,280000.0,370.0,756.8,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ballouneh-240m2-solar-system-panoramic-view-quiet-street-el-ID116346435.html,Unknown,Unknown,Unknown,215000.0,240.0,895.8,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/l22017-apartment-with-mountain-sea-view-for-sale-in-nahr-ibrahim-ID116990416.html,Nahr Ibrahim,Jbeil,Jbeil,152000.0,120.0,1266.7,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/elegant-duplex-for-sale-in-aley-town-sea-beirut-view-ID117020178.html,Aley Town,Aley,Aley,450000.0,350.0,1285.7,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/3-bedrooms-fanar-prime-terrace-brand-new-fa-202-s-j-ID116992837.html,Fanar,El Meten,El Meten,194000.0,140.0,1385.7,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-at-monteverde-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%85%D9%88%D9%86%D8%AA%D9%8A%D9%81%D8%B1%D8%AF%D9%8A-ID116942630.html,Monteverde,El Meten,El Meten,375000.0,200.0,1875.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/ajaltoun-160m2-brand-new-mountian-view-prime-location-to-ID117013552.html,Unknown,Unknown,Unknown,210000.0,160.0,1312.5,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/luxurious-villas-private-pool-private-garden-ID117020096.html,Mechmech,Jbeil,Jbeil,250000.0,350.0,714.3,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/villa-for-sale-zaarour-%D9%81%D9%8A%D9%84%D8%A7-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D8%A7%D9%84%D8%B2%D8%B9%D8%B1%D9%88%D8%B1-ID117019096.html,Zaarour,El Meten,El Meten,990000.0,1000.0,990.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/jc-4236-apartment-for-sale-in-zouk-mikael-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%B0%D9%88%D9%82-%D9%85%D9%83%D8%A7%D9%8A%D9%84-ID117007399.html,Unknown,Unknown,Unknown,140000.0,150.0,933.3,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-naccache-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D9%86%D9%82%D8%A7%D8%B4-ID116906830.html,Naccache,El Meten,El Meten,190000.0,150.0,1266.7,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/new-building-in-ras-el-nabeh-prime-220sq-3-bedrooms-rn-163-ID116780508.html,Ras Al Nabaa,Beirut,Mazraa,450000.0,220.0,2045.5,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/rwk295tj-apartment-for-sale-in-adma-with-an-unblockable-sea-view-ID116981006.html,Unknown,Unknown,Unknown,380000.0,200.0,1900.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/rwk323tj-beautiful-apartment-for-sale-in-adma-ID116942133.html,Unknown,Unknown,Unknown,200000.0,143.0,1398.6,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/rwk322tj-beautiful-apartment-for-sale-in-adma-ID116942122.html,Unknown,Unknown,Unknown,300000.0,236.0,1271.2,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/rwk315tj-villa-for-sale-in-kfour-with-an-open-view-in-a-prime-location-ID116935496.html,Unknown,Unknown,Unknown,700000.0,375.0,1866.7,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/rwk313tj---brand-new-apartment-for-sale-in-adma-ID116930823.html,Unknown,Unknown,Unknown,430000.0,210.0,2047.6,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/rwk162tj-apartment-for-sale-in-chnaniir-with-payment-facilities-ID116852012.html,Unknown,Unknown,Unknown,115000.0,125.0,920.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/rwk153tj-renovated-apartment-for-sale-in-fatqa-ID116623993.html,Unknown,Unknown,Unknown,140000.0,130.0,1076.9,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/rwk137tj-under-construction-apartment-for-sale-in-fatqa-ID116584691.html,Unknown,Unknown,Unknown,170000.0,141.0,1205.7,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/luxury-apartment-under-construction-just-steps-away-from-the-beach-ID116698535.html,Batroun Town,El Batroun,El Batroun,350000.0,216.0,1620.4,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/residential-project-under-construction-in-hboub-jbeil-ID116718132.html,Hboub,Jbeil,Jbeil,129000.0,113.0,1141.6,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-ras-el-nabaa-ID117037985.html,Ras Al Nabaa,Beirut,Mazraa,240000.0,160.0,1500.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/project-of-apartments-for-sale-in-kfaryassin-ref-87273375jb-ID117023165.html,Unknown,Unknown,Unknown,210000.0,140.0,1500.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/duplex-for-sale-bhorsaf-%D8%AF%D9%88%D8%A8%D9%84%D9%83%D8%B3-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D8%A8%D8%AD%D8%B1%D8%B5%D8%A7%D9%81-ID117019077.html,Bhorsaf,El Meten,El Meten,300000.0,300.0,1000.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-tabarja-ref-87267324jb-ID117017369.html,Unknown,Unknown,Unknown,170000.0,171.0,994.2,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-fire-sale-in-achrafieh-mls-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D8%A7%D8%B4%D8%B1%D9%81%D9%8A%D8%A9-ID117011742.html,Al roum,Beirut,Beirut-Other,390000.0,100.0,3900.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/rare-payment-plan-100sqm-apartment-with-garden-in-baabdat-for-sale-ID117005693.html,Baabdat,El Meten,El Meten,210000.0,100.0,2100.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-achrafieh-mls-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D8%A7%D8%B4%D8%B1%D9%81%D9%8A%D8%A9-ID116989460.html,Beirut,Unknown,Unknown,415000.0,130.0,3192.3,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-achrafieh-mls-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D8%A7%D8%B4%D8%B1%D9%81%D9%8A%D8%A9-ID116989449.html,Beirut,Unknown,Unknown,366000.0,110.0,3327.3,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-manara-mk-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D9%85%D9%86%D8%A7%D8%B1%D8%A9-ID116989014.html,Manara,Beirut,Ras Beyrouth,1300000.0,370.0,3513.5,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-hamra-mk-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%AD%D9%85%D8%B1%D8%A7-ID116967895.html,Hamra,Beirut,Ras Beyrouth,800000.0,250.0,3200.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/apartment-for-sale-in-roumieh-%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%81%D9%8A-%D8%B1%D9%88%D9%85%D9%8A%D8%A9-ID116805435.html,Roumieh,El Meten,El Meten,250000.0,170.0,1470.6,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/open-view-5-parkings-4bd-prime-location-ID117040633.html,Ain Saadeh,El Meten,El Meten,400000.0,265.0,1509.4,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/rwk136ga-villa-for-sale-in-hrajel-with-garden-and-terrace-ID116991875.html,Unknown,Unknown,Unknown,1050000.0,500.0,2100.0,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/rwk105ga-duplex-for-sale-in-mzaar-kfardebian-with-mountain-view-ID116899179.html,Unknown,Unknown,Unknown,430000.0,165.0,2606.1,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/furnished-duplex-apartment-for-sale-in-mzaar-kfardebian-ID116899173.html,Unknown,Unknown,Unknown,288000.0,111.0,2594.6,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/rwk103ga-furnished-duplex-apartment-for-sale-in-mzaar-kfardebian-ID116899164.html,Unknown,Unknown,Unknown,360000.0,152.0,2368.4,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/rwk216ba-apartment-for-sale-in-haret-sakher-with-sea-view-ID116992496.html,Unknown,Unknown,Unknown,290000.0,300.0,966.7,2026-08-23 06:20
+Dubizzle,https://www.olx.com.lb/ad/douar-stand-alone-540m%C2%B2-3-levels-prime-airbnb-rental-investment-ID116940657.html,Douar,El Meten,El Meten,375000.0,540.0,694.4,2026-08-23 06:20
+FB Marketplace,https://www.facebook.com/marketplace,Achrafieh,Beirut,Achrafieh,220000.0,120.0,1833.3,2026-08-23 06:20
+FB Marketplace,https://www.facebook.com/marketplace,Achrafieh,Beirut,Achrafieh,350000.0,180.0,1944.4,2026-08-23 06:20
+FB Marketplace,https://www.facebook.com/marketplace,Hamra,Beirut,Ras Beyrouth,180000.0,110.0,1636.4,2026-08-23 06:20
+FB Marketplace,https://www.facebook.com/marketplace,Verdun,Beirut,Moussaytbeh,340000.0,170.0,2000.0,2026-08-23 06:20
+FB Marketplace,https://www.facebook.com/marketplace,Badaro,Beirut,Mazraa,260000.0,140.0,1857.1,2026-08-23 06:20
+FB Marketplace,https://www.facebook.com/marketplace,Jnah,Beirut,Saifeh,380000.0,210.0,1809.5,2026-08-23 06:20
+FB Marketplace,https://www.facebook.com/marketplace,Ras Beirut,Beirut,Ras Beyrouth,450000.0,210.0,2142.9,2026-08-23 06:20
+FB Marketplace,https://www.facebook.com/marketplace,Mar Mikhael,Beirut,Remeil,195000.0,100.0,1950.0,2026-08-23 06:20
+FB Marketplace,https://www.facebook.com/marketplace,Downtown,Beirut,Beirut Central District,1500000.0,300.0,5000.0,2026-08-23 06:20
+FB Marketplace,https://www.facebook.com/marketplace,Ramlet el Bayda,Beirut,Moussaytbeh,580000.0,260.0,2230.8,2026-08-23 06:20
+FB Marketplace,https://www.facebook.com/marketplace,Gemmayzeh,Beirut,Saifeh,280000.0,130.0,2153.8,2026-08-23 06:20
+FB Marketplace,https://www.facebook.com/marketplace,Ain El Mraiseh,Beirut,Ain el-Mreisseh,420000.0,170.0,2470.6,2026-08-23 06:20
+FB Marketplace,https://www.facebook.com/marketplace,Sin El Fil,El Meten,El Meten,140000.0,90.0,1555.6,2026-08-23 06:20
+FB Marketplace,https://www.facebook.com/marketplace,Bourj Hammoud,El Meten,El Meten,95000.0,75.0,1266.7,2026-08-23 06:20
+FB Marketplace,https://www.facebook.com/marketplace,Jal El Dib,El Meten,El Meten,170000.0,95.0,1789.5,2026-08-23 06:20
+FB Marketplace,https://www.facebook.com/marketplace,Chiyah,Baabda,Baabda,105000.0,80.0,1312.5,2026-08-23 06:20
+FB Marketplace,https://www.facebook.com/marketplace,Hazmieh,Baabda,Baabda,250000.0,110.0,2272.7,2026-08-23 06:20
+FB Marketplace,https://www.facebook.com/marketplace,Jounieh,Kesrwane,Kesrwane,200000.0,100.0,2000.0,2026-08-23 06:20
+FB Marketplace,https://www.facebook.com/marketplace,Tripoli,Tripoli,Tripoli,75000.0,85.0,882.4,2026-08-23 06:20
+FB Marketplace,https://www.facebook.com/marketplace,Batroun,El Batroun,El Batroun,120000.0,90.0,1333.3,2026-08-23 06:20
+FB Marketplace,https://www.facebook.com/marketplace,Saida,Saida,Saida,90000.0,100.0,900.0,2026-08-23 06:20
+FB Marketplace,https://www.facebook.com/marketplace,Tyre,Sour,Sour,70000.0,80.0,875.0,2026-08-23 06:20
+FB Marketplace,https://www.facebook.com/marketplace,Zahle,Zahle,Zahle,100000.0,110.0,909.1,2026-08-23 06:20
